@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+  body{overflow-x: hidden !important;}
+    span.bg-blue{font-size: 38px;}
+    .box-pr h5{display: none;}
+    .home-wrp h1 {
+      font-size: 40px;
+      color: #000; 
+  }
+
+  .home-wrp p,.sec-abt-p,.cta-wrp p,.do-it-wrp p{font-size: 15px;}
+  .box-prss img {
+    display: none;
+}
+.box-pr p {
+  font-size: 16px;
+}
+  
+  
+  .hme-btn a{font-size: 20px;}
+  
+  
+  img.hme-img {
+    width: 100%;
+    padding: 70px 0px;
+}
+.sec-abt-1 h2, .tab-port h2, .achve h2, .sec-services h2, .rwd-wrp h2,.cta-wrp h2,.trust-wrp h2,.do-it-wrp h2{font-size: 40px;}
+.boxs {
+  margin-bottom: 80px;
+}
+section.cta-1 img {
+  width: 100%;
+  padding: 0px 70px;
+}
+ul.tab-ul li {
+  display: inline-block;
+  padding: 20px 10px;
+  width: 97%;
+}
+ul.nav-links li {
+  display: flex;
+  padding: 40px 15px 0px;
+}
+
+.ctn-bt {
+  display: none;
+}
+img.prcss {
+  width: 100%;
+}
+.box-pr h2{font-size: 30px;}
+.logo img {
+  width: 50%;
+}
+.build h2{font-size: 40px;}
+.prt-bx{width: 80%;margin: 20px 33px;}
+.home-wrp.abt-home.port-h1 h1 {
+  color: #fff;
+}
+.home-wrp.serv-h1 h1 {
+  color: #fff;
+}
+.bx-serv {
+  margin: 40px 0px;
+}
+img.abt-img{display: none;}
+.values h2,.sty h2 {
+  font-size: 30px;
+}
+section.story img {
+  width: 90%;
+}
+.vsn {
+  margin: 50px 0px;
+}
+img.port-img{display: none;}
+}
+
+
+
+
