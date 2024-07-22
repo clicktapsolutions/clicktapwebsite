@@ -4,13 +4,10 @@
     .box-pr h5{display: none;}
     .home-wrp h1 {
       font-size: 40px;
-      color: #000; 
+      color: #fff;
   }
 
   .home-wrp p,.sec-abt-p,.cta-wrp p,.do-it-wrp p{font-size: 15px;}
-  .box-prss img {
-    display: none;
-}
 .box-pr p {
   font-size: 16px;
 }
@@ -36,10 +33,6 @@ ul.tab-ul li {
   padding: 20px 10px;
   width: 97%;
 }
-ul.nav-links li {
-  display: flex;
-  padding: 40px 15px 0px;
-}
 
 .ctn-bt {
   display: none;
@@ -59,9 +52,7 @@ img.prcss {
 .home-wrp.serv-h1 h1 {
   color: #fff;
 }
-.bx-serv {
-  margin: 40px 0px;
-}
+
 img.abt-img{display: none;}
 .values h2,.sty h2 {
   font-size: 30px;
@@ -73,7 +64,46 @@ section.story img {
   margin: 50px 0px;
 }
 img.port-img{display: none;}
+nav {padding:0px;}
+nav ul {padding: 5px;margin: 0 0 0 -30px;text-align: center !important;justify-content: center;}
+nav ul  li {padding: 5px 5px !important;text-align: center;}
+i.fa-solid.fa-arrow-right{display: none;}
+img.arrows {display: none;}
+.boxs-ser .col-md-4 { padding: 10px 0 30px 10px;}
+.bxs-rwds .col-md-4 {padding: 20px 0 40px 20px;}
+section.cta-1 {margin: 0px 10px;}
+.number {
+
+  font-size: 80px;
+ 
+  right: 0px;
+ 
+  font-weight: 600;
 }
+.row.newrow {
+  padding: 0px 0px 0px 0px;
+}
+.img-pr img {
+  left: 12px;
+  width: 60%;
+  opacity: 0.15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 
 

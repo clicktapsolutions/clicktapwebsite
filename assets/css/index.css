@@ -49,7 +49,7 @@ section.abt-us {background: #F5F5F5;}
 .sec-abt-1 h2,.tab-port h2,.achve h2,.sec-services h2,.rwd-wrp h2,.values h2,.sty h2,.fq-h2,.testi-wrp h2 {text-align: center;font-size: 60px;font-weight: 700;padding: 0 0 20px 0px;}
 /* ///////////////////////////////////////// alll headings main ends /////////////////////////////////////////////////// */
 p.sec-abt-p {font-size: 20px;padding: 60px 0px;}
-img.img-abt-1 {width: 90%;padding: 0px 20px;}
+img.img-abt-1 {width: 70%;padding: 0px 0px 60px 70px;}
 .box-pr p {font-size: 20px;}
 .sec-abt-1-box {padding: 50px 0px;}
 .boxs {background: #fff;padding: 20px;box-shadow: 10px 10px 10px #00000014;position: relative;border-radius: 15px;height: 300px;}
@@ -106,7 +106,7 @@ section.frm-end {background: #F5F5F5;}
 /* //////////////////////// end //////////////////// */
 img.logo-ft {width: 50%;}
 img.star-ft {width: 40%;}
-footer {background: #004695;/* padding: 10px 0px; */color: #fff;/* height: 10vh; */}
+footer {background: #004695;padding: 10px 0px;color: #fff;}
 .pt-two li { display: block;padding: 10px 0px;}
 .pt-two ul{padding: 0px;} .pt-two a{color: #fff;font-size: 20px;text-decoration: none;}
 .pt-two h5 {font-size: 30px;font-weight: 600;}
@@ -162,13 +162,13 @@ p.tb-p {font-size: 20px;padding: 20px 10px 50px;font-weight: 200;}
 .serv-bg  {background: url(../images/serv.png) no-repeat;background-position: center;background-size: cover;}
 section.her-sec-serv p {color: #fff;}
 .bx-serv {box-shadow: 0px 10px 39px rgba(62,66,66,0.22),inset 0px 10px 40px 10px rgba(255, 255, 255, 0.22);height: 100%;padding: 10px 25px;border-radius: 20px;}
-img.arrows {text-align: right;padding: 10px 20px 10px 270px;}
+img.arrows {text-align: right;padding: 10px 20px 10px 330px;}
 .bx-serv ul {padding: 0px;}
 .bx-serv li {display: block;font-size: 15px;}
 .bx-serv h6 {font-size: 25px;font-weight: 700;}
 .bx-serv:hover {background: linear-gradient(90deg, rgba(0,70,149,1) 0%, rgba(0,212,255,1) 100%);color: #FFFF;transition: 0.4s ease-out;}
 section.sec-services p,.rwd-wrp p {font-size: 20px;text-align: center;padding: 50px 0px;}
-.rwds-wrp {text-align: center;box-shadow: 10px 10px 40px #0000004a;border-radius: 20px;padding: 40px 0px;filter: grayscale(1);}
+.rwds-wrp {text-align: center;box-shadow: 10px 10px 40px #0000004a;border-radius: 20px;padding: 40px 0px;filter: grayscale(1);transform: scale(0.8);}
 .rwds-wrp h6 {padding: 20px 0px;font-size: 20px;font-weight: 700;}
 h6.small-h6 {font-size: 15px;padding: 20px 0px;}
 .boxs-ser a {
@@ -193,6 +193,8 @@ img.vsn-img.mot {padding: 70px 100px;opacity: 0.4;}
 .sty-wrp p {font-size: 20px;color: #00000075;font-weight: 500;padding: 100px 0px;}
 .rwds-wrp:hover {
     filter: none;
+    transform: scale(0.9);
+    transition: 0.3s ease-out;
 }
 /* ////////////////////////////// contact us section starts ////////////////////////////////// */
 .cnt-1 {color: #fff;}
@@ -268,6 +270,35 @@ img.prcss {
 i.fa-solid.fa-arrow-right {
     padding: 10px;
 }
+
+ul.chekr {
+    display: block;
+}
+
+ul.chekr li {
+    display: inline-block;
+}
+
+.number {
+    position: absolute;
+    font-size: 120px;
+    text-align: right !important;
+    right: -90px;
+    color: #000;
+    opacity: 0.2;
+    font-weight: 700;
+}
+.num-wrp {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+img.sty-img {
+    width: 100%;
+}
 ul.ft-li {
     padding: 10px 20px;
     display: block;
@@ -276,8 +307,9 @@ ul.ft-li {
 ul.ft-li li {
     display: block;
 }
-.row.inf {
-    padding: 30px 0 0 0;
+.img-pr img {
+    position: relative;
+    width: 50%;
+    left: 230px;
+    top: 140px;
 }
-
-
