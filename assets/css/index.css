@@ -178,12 +178,12 @@ img.prcss { max-width: 550px; height: 600px; }
 i.fa-solid.fa-arrow-right { padding: 10px; }
 ul.chekr { display: block; }
 ul.chekr li { display: inline-block; }
-.number { position: absolute; font-size: 120px; right: -90px; color: rgb(0, 0, 0); opacity: 0.2; font-weight: 700; text-align: right !important; }
+.number {position: absolute;font-size: 120px;right: -20px;color: rgb(0, 0, 0);opacity: 0.2;font-weight: 700;text-align: right !important;}
 .num-wrp { position: absolute; top: 0px; left: 0px; }
 img.sty-img { width: 100%; }
 ul.ft-li {padding: 40px 20px 0;display: block;}
 ul.ft-li li { display: block; }
-.img-pr img { position: relative; width: 50%; left: 230px; top: 140px; }
+.img-pr img {position: relative;width: 50%;left: 80px;}
 .carousel-inner img { width: 100%; height: 100%; }
 .wrp-car.tab1 { background: url("/assets/images/bg-sli.png"); height: 100vh; }
 .wrp-tetx { color: rgb(255, 255, 255); padding: 140px 60px; }
