@@ -134,8 +134,8 @@ p.tb-p { font-size: 20px; padding: 20px 10px 50px; font-weight: 200; }
 .serv-h1 .bg-blue { color: rgb(0, 0, 0); }
 .serv-bg { background: url("../images/serv.png") center center / cover no-repeat; }
 section.her-sec-serv p { color: rgb(255, 255, 255); }
-.bx-serv { box-shadow: rgba(62, 66, 66, 0.22) 0px 10px 39px, rgba(255, 255, 255, 0.22) 0px 10px 40px 10px inset; height: 100%; padding: 10px 25px; border-radius: 20px; }
-img.arrows { text-align: right; padding: 10px 20px 10px 330px; }
+.bx-serv {box-shadow: rgba(62, 66, 66, 0.22) 0px 10px 39px, rgba(255, 255, 255, 0.22) 0px 10px 40px 10px inset;height: 100%;padding: 10px 25px;border-radius: 20px;height: 50vh;}
+img.arrows {text-align: right;padding: 10px 20px 10px 270px;}
 .bx-serv ul { padding: 0px; }
 .bx-serv li { display: block; font-size: 15px; }
 .bx-serv h6 { font-size: 25px; font-weight: 700; }
@@ -199,6 +199,11 @@ input#checkpr {position: absolute;left: -211px;top: 74px;}
 img.logo-slider { width: 20%; border-radius: 12px; }
 .topnav.blk-dis {
     display: none;
+}
+section.sec-1 p {
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 0px;
 }
 
 /* ///////////////////privacy//////////////////////// */
