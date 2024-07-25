@@ -22,7 +22,7 @@
                 <div class="col-md-2 col-sm-2">
                     <div class="nav-content">
                         <div class="logo">
-                            <a href="#"><img src="images/logo-1-ft.png" alt=""></a>
+                            <a href="/index.html"><img src="images/logo-1-ft.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -32,12 +32,25 @@
                         <li class="dropdown">
                             <a href="/assets/services.html" class="dropbtn">Services</a></li>
                         <li><a href="/assets/about.html">About Us</a></li>
-                        <li><a href="#">Lets Talk<i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="#frm">Lets Talk<i class="fa-solid fa-arrow-right"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
+
+    <div class="topnav blk-dis">
+        <a href="/index.html" class="active"><img src="images/logo-1-ft.png" alt="" class="nav-new"></a>
+        <div id="myLinks">
+          <a href="/index.html">Home</a>
+          <a href="/assets/services.html">Services</a>
+          <a href="/assets/about.html">About Us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
 
 <section class="port-hero-1 abot-us">
     <span class="bg-cover-blk"></span>
@@ -355,24 +368,24 @@
     </div>
 </section>
 
-<section class="frm-end">
+<section class="frm-end" id="frm">
     <div class="container">
         <div class="row">
             <div class="col-md-8"><div class="img-frm"><img src="images/frm-img.png" alt=""></div></div>
             <div class="col-md-4">
                 <div class="frm-wrp">
                     <div data-aos="fade-up" data-aos-duration="3000"><h2>Feel Free To Connect With Us</h2></div>
-                    <form action="">
-                        <input type="text" id="fname" name="fname" placeholder="Name"><br><br>
-                        <input type="text" id="lname" name="lname" placeholder="Phone"><br><br>
-                        <input type="text" id="lname" name="lname" placeholder="Email"><br><br>
-                        <input type="textarea" id="lname" name="lname" placeholder="Message"><br><br>
+                    <form method="post" action="https://script.google.com/macros/s/AKfycbytAbmx5PoxnwAh3e0CnzXfLAkDOasEN-mCn72vMblRswQoJnr34oSsIajyujY5QZu3/exec" name="contact-form">
+                      <input type="text" name="your-name" placeholder="Name">
+                      <input type="text" name="your-number" placeholder="Number">
+                      <input type="email" name="your-email" placeholder="Email">
+                      <textarea name="message" rows="7" placeholder="Your Message"></textarea>
                         <div class="wrp-chk">
                         <input type="checkbox" id="check"><label for="check">By submitting your phone number, you agree to receiving texts from ClickTap Solutions.</label>
                         <input type="checkbox" id="checkpr"><label for="checkpr">By submitting , you agree to <a href="/assets/privacy.html">Privacy & Policy</a> and <a href="/assets/condition.html">Terms and Conditions</a> from ClickTap Solutions.</label>
                     </div>
-                        <input type="submit" value="Submit">
-                    </form>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
                 </div>
             </div>
         </div>
@@ -394,11 +407,10 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <ul class="ft-li">
-                    <li><p>Three Sugar Creek Center. Sugar Land, 77478</p></li>
-                    <li><p>+1 (877) 211-9270</p></li>
-                   
-                </ul>
+              <ul class="ft-li">
+                <li><p><i class="fa-solid fa-location-dot spc"></i>Three Sugar Creek Center. Sugar Land, 77478</p></li>
+                <li><p><i class="fa-solid fa-phone spc"></i>+1 (877) 211-9270</p></li> 
+            </ul>
             </div>
                 </div>
             </div>
@@ -432,6 +444,30 @@ window.onscroll = function() {
   }
 }
     </script>
-
+<!-- 
+        //////////////////mobile nav ///////////////////// -->
+        <script>
+            function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }   
+        </script>
+             <script>
+              const scriptURL = 'https://script.google.com/macros/s/AKfycbytAbmx5PoxnwAh3e0CnzXfLAkDOasEN-mCn72vMblRswQoJnr34oSsIajyujY5QZu3/exec'
+      
+      const form = document.forms['contact-form']
+      
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank you! your form is submitted successfully." ))
+        .then(() => { window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+      })
+          </script>
 </body>
 </html>

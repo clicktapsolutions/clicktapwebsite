@@ -11,7 +11,7 @@ ul.nav-links { display: block; text-align: right; }
 ul.nav-links li { display: inline-block; padding: 15px 25px 0px; }
 ul.nav-links a { font-size: 15px; font-weight: 600; letter-spacing: 0.8px; text-decoration: none; color: rgb(255, 255, 255); }
 .home-wrp h1 { font-size: 40px; font-weight: 800; padding: 20px 0px; color: rgb(255, 255, 255); }
-span.bg-blue { background: rgb(0, 193, 255); padding: 2px 6px; color: rgb(0, 0, 0); font-size: 60px; }
+span.bg-blue {background: rgb(0, 193, 255);padding: 2px 6px;color: rgb(0, 0, 0);font-size: 60px;border-radius: 12px;}
 .home-wrp p { font-size: 20px; font-weight: 500; padding: 0px 0px 20px; color: rgb(255, 255, 255); }
 .hme-btn a { font-size: 30px; text-decoration: none; font-weight: 600; background: linear-gradient(90deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%); padding: 10px 20px; color: rgb(255, 255, 255); }
 .hme-btn a:hover { color: rgb(255, 255, 255); }
@@ -20,9 +20,18 @@ span.bg-blue { background: rgb(0, 193, 255); padding: 2px 6px; color: rgb(0, 0, 
 .boxs:hover { background: linear-gradient(90deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%); transition: all 0.4s ease-in 0s; color: rgb(255, 255, 255); }
 .boxs:hover .cir-bx { background: rgb(0, 70, 149); }
 section.abt-us { background: rgb(245, 245, 245); }
-.sec-abt-1 h2, .tab-port h2, .achve h2, .sec-services h2, .rwd-wrp h2, .values h2, .sty h2, .fq-h2, .testi-wrp h2, section.clk h2 { text-align: center; font-size: 60px; font-weight: 700; padding: 0px 0px 20px; }
+/* ///////////////////////////////// aAll Headings ///////////////////////////////// */
+.sec-abt-1 h2, .tab-port h2, .achve h2, .sec-services h2, .rwd-wrp h2, .values h2, .sty h2, .fq-h2, .testi-wrp h2, section.clk h2,section.reviws h2 { text-align: center; font-size: 60px; font-weight: 700; padding: 0px 0px 20px; }
+/* ///////////////////////////////// aAll Headings ///////////////////////////////// */
 p.sec-abt-p { font-size: 20px; padding: 60px 0px; }
-img.img-abt-1 { width: 70%; padding: 0px 0px 60px 70px; }
+img.img-abt-1 { width: 70%; padding: 0px 0px 60px 70px;   animation-name: example;
+    animation-duration: 4s ;}
+    @keyframes example{
+        0% {transform:translateY(1.2)}
+        50% {transform: translateY(1);}
+        75% {transform: translateY(1.2);}
+        100% {transform: translateY(1);}
+    }
 .box-pr p { font-size: 20px; }
 .sec-abt-1-box { padding: 50px 0px; }
 .boxs { background: rgb(255, 255, 255); padding: 20px; box-shadow: rgba(0, 0, 0, 0.08) 10px 10px 10px; position: relative; border-radius: 15px; height: 300px; }
@@ -104,7 +113,9 @@ section.bh-tru-pat { background: rgb(245, 245, 245); text-align: center; }
 .trt-img ul { display: block; padding: 0px; }
 .trt-img li { display: inline-block; width: 17%; }
 .trt-img img { width: 100%; }
-.trusted h2, .part-buld, .tab-port h5, .sec-abt-1 h5, .achve h5, .sty h6, .map-wrp h6, section.faq h6, .testi-wrp h6, section.clk h6 { color: rgb(137, 137, 137); font-weight: 200; font-size: 20px; letter-spacing: 10px; padding: 20px 0px; text-align: center; }
+/* ///////////////////////////////// aAll Gray walay Parts ///////////////////////////////// */
+.trusted h2, .part-buld, .tab-port h5, .sec-abt-1 h5, .achve h5, .sty h6, .map-wrp h6, section.faq h6, .testi-wrp h6, section.clk h6,section.reviws h6 {color: rgb(137, 137, 137);font-weight: 200;font-size: 20px;letter-spacing: 10px;padding: 20px 0px;text-align: center;text-transform: uppercase;}
+/* ///////////////////////////////// aAll Gray walay Parts ///////////////////////////////// */
 .build h2 { text-align: left; font-size: 55px; font-weight: 700; }
 span.col-blue { background: rgb(13, 110, 253); color: rgb(255, 255, 255); padding: 0px 5px; }
 h2.part-buld { padding: 0px 0px 70px; }
@@ -186,7 +197,16 @@ ul.ft-li li { display: block; }
 .img-pr img {position: relative;width: 50%;left: 80px;}
 .carousel-inner img { width: 100%; height: 100%; }
 .wrp-car.tab1 { background: url("/assets/images/bg-sli.png"); height: 100vh; }
-.wrp-tetx { color: rgb(255, 255, 255); padding: 140px 60px; }
+.wrp-car.tab2 { background: url("/assets/images/slider/sl.png"); height: 100vh; }
+.wrp-car.tab3 { background: url("/assets/images/slider/dog.png  "); height: 100vh; }
+.wrp-car.tab4 { background: url("/assets/images/slider/shubuy.png "); height: 100vh; }
+.wrp-car.tab5 { background: url("/assets/images/slider/arch.png "); height: 100vh; }
+.wrp-car.tab6 { background: url("/assets/images/slider/dat.png "); height: 100vh; }
+.wrp-car.tab7 { background: url("/assets/images/slider/house.png "); height: 100vh; }
+.wrp-car.tab8 { background: url("/assets/images/slider/pers.png "); height: 100vh; }
+.wrp-car.tab9 { background: url("/assets/images/slider/carer.png "); height: 100vh; }
+.wrp-car.tab10 { background: url("/assets/images/slider/dive.png "); height: 100vh; }
+.wrp-tetx {color: rgb(255, 255, 255);padding: 30px 50px;}
 .wrp-tetx h2 { font-size: 60px; font-weight: 800; }
 .wrp-chk {position: relative;padding: 20px 10px;}
 input#check {position: absolute;left: -210px;top: 26px;padding: 0px;margin: 0px;}
@@ -197,43 +217,46 @@ input#checkpr {position: absolute;left: -211px;top: 74px;}
 .logo-app ul { display: block; padding: 0px; }
 .logo-app ul li { display: inline-block; }
 img.logo-slider { width: 20%; border-radius: 12px; }
-.topnav.blk-dis {
-    display: none;
+.topnav.blk-dis {display: none;}
+section.sec-1 p {color: #fff;font-size: 20px;padding: 20px 0px;}
+.img-sli-wrp img {
+    width: 100%;
+    padding: 60px 40px;
 }
-section.sec-1 p {
-    color: #fff;
-    font-size: 20px;
+section.reviws {
+    background: whitesmoke;
+}
+.bxs-rv {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    height: 35vh;
+}
+.bxs-rv h5{font-size: 30px;font-weight: 700;}
+.bxs-rv p{font-size: 16px;}
+textarea {
+    border: 0px;
+    background: transparent;
+    border-bottom: 1px solid;
+    width: 100%;
     padding: 20px 0px;
 }
-
+.spc {
+    font-size: 20px;
+    padding: 0 10px 0 0px;
+}
+img.hme-img {
+    width: 100%;
+}
+img.ser-gif {
+    width: 120%;
+}
 /* ///////////////////privacy//////////////////////// */
-.pr-vc ul {
-    display: block;
-    padding: 0px;
-}
-
-.pr-vc li {
-    display: inline-block;
-    padding: 10px 10px;
-}
-
-.pr-vc a {
-    color: #fff;
-}
+.pr-vc ul {display: block;padding: 0px;}
+.pr-vc li {display: inline-block;padding: 10px 10px;}
+.pr-vc a {color: #fff;}
 .prvcy{background: url("../images/prv.png") center center / cover no-repeat;height: 70vh;}
-.pcy-wrp h2 {
-    font-size: 60px;
-    font-weight: 700;
-    padding: 20px 0px;
-}
-
-.pcy-wrp p {
-    font-size: 20px;
-}
-
-p.pv-bd li {
-    font-size: 20px;
-}
-span.bg-pcl {
-    color: #084298;
-}
+.pcy-wrp h2 {font-size: 60px;font-weight: 700;padding: 20px 0px;}
+.pcy-wrp p {font-size: 20px;}
+p.pv-bd li {font-size: 20px;}
+span.bg-pcl {color: #084298;}

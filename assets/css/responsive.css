@@ -64,9 +64,9 @@ section.story img {
   margin: 50px 0px;
 }
 img.port-img{display: none;}
-nav {padding:0px;}
+/* nav {padding:0px;}
 nav ul {padding: 5px;margin: 0 0 0 -30px;text-align: center !important;justify-content: center;}
-nav ul  li {padding: 5px 5px !important;text-align: center;}
+nav ul  li {padding: 5px 5px !important;text-align: center;} */
 i.fa-solid.fa-arrow-right{display: none;}
 img.arrows {display: none;}
 .boxs-ser .col-md-4 { padding: 10px 0 30px 10px;}
@@ -74,11 +74,13 @@ img.arrows {display: none;}
 section.cta-1 {margin: 0px 10px;}
 .number {
 
-  font-size: 80px;
- 
-  right: 0px;
- 
-  font-weight: 600;
+font-size: 80px;
+
+right: 15px;
+
+font-weight: 600;
+
+opacity: 0.12;
 }
 .row.newrow {
   padding: 0px 0px 0px 0px;
@@ -86,7 +88,8 @@ section.cta-1 {margin: 0px 10px;}
 .img-pr img {
   left: 12px;
   width: 60%;
-  opacity: 0.15;
+  opacity: 0.05;
+  top: 27px;
 }
 .wrp-chk {
   position: relative;
@@ -109,7 +112,12 @@ input#check {
 }
 .wrp-tetx p{font-size: 15px;}
 
-.clk{display: none;}
+
+.topnav.blk-dis {
+  display: block;
+}
+nav.sticky {display: none;}
+nav {display: none;}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -144,23 +152,48 @@ input#check {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color:rgb(0, 193, 255);
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #04AA6D;
+  background-color: #f1f1f1;
   color: white;
+  box-shadow: 10px 10px 5px #333;
+}
+img.nav-new {
+  width: 28%;
+}
+.bx-serv {
+  padding: 30px 25px;
+  height: 50vh;
+  margin: 0 20px;
 }
 
-
-
-
-
-
-
-
+.pcy-wrp h2 {
+  font-size: 40px;
+}
+.img-sli-wrp {
+  display: none;
+}
+.bxs-rv p {
+  font-size: 16px;
+  color: #000;
+}
+.bxs-rv h5 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+.bxs-rv {
+  height: 35vh;
+  margin: 20px;
+}
+img.ser-gif {
+  width: 100%;
+  padding: 60px 0px;
+}
 }
 
 
