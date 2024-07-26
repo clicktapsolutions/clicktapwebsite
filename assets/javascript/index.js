@@ -10,6 +10,15 @@
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.classList.add("active");
   }
+  document.addEventListener("DOMContentLoaded", function() {
+    // Set default tab
+    var firstTabButton = document.querySelector(".tab-button");
+    if (firstTabButton) {
+      openTab({ currentTarget: firstTabButton }, firstTabButton.getAttribute("data-target"));
+    }
+  });
+  
+
   
 
 
