@@ -30,8 +30,8 @@ section.cta-1 img {
 }
 ul.tab-ul li {
   display: inline-block;
-  padding: 20px 10px;
-  width: 97%;
+  padding: 10px 10px;
+  width: 100%;
 }
 
 .ctn-bt {
@@ -160,7 +160,7 @@ nav {display: none;}
 .active {
   background-color: #f1f1f1;
   color: white;
-  box-shadow: 10px 10px 5px #333;
+  /* box-shadow: 10px 10px 5px #333; */
 }
 img.nav-new {
   width: 28%;
@@ -201,7 +201,9 @@ input#checkpr {
 }
 .box-pr {
   height: 50vh;}
-
+  img.tb-log {
+    width: 30%;
+}
 
 
 
