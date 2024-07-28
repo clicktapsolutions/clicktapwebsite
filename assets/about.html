@@ -30,9 +30,16 @@
                     <ul class="nav-links">
                         <li><a href="/index.html">Home</a></li>
                         <li class="dropdown">
-                            <a href="/assets/services.html" class="dropbtn">Services</a></li>
+                            <a href="/assets/services.html" class="dropbtn">Services <i class="fa fa-caret-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                              </div>
+                        </li>
+                        <li><a href="/assets/port.html">Portfolio</a></li>
                         <li><a href="/assets/about.html">About Us</a></li>
-                        <li><a href="#frm">Lets Talk<i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li class="lets"><a href="#frm" >Lets Talk<i class="fa-solid fa-arrow-right"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +53,7 @@
           <a href="/assets/services.html">Services</a>
           <a href="/assets/about.html">About Us</a>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="#" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
@@ -643,14 +650,23 @@
                 <div class="frm-wrp">
                     <div data-aos="fade-up" data-aos-duration="3000"><h2>Feel Free To Connect With Us</h2></div>
                     <form method="post" action="https://script.google.com/macros/s/AKfycbytAbmx5PoxnwAh3e0CnzXfLAkDOasEN-mCn72vMblRswQoJnr34oSsIajyujY5QZu3/exec" name="contact-form">
-                      <label for="name">Enter Your Name:</label>
-                      <input type="text" name="your-name" placeholder="Name"><br>
-                      <label for="name">Enter Your Number:  </label>
-                      <input type="text" name="your-number" placeholder="Number:(US Only)"><br>
-                      <label for="name">Enter Your Email:</label>
-                      <input type="email" name="your-email" placeholder="Email"><br>
-                      <label for="name">Enter Your Message:</label>
-                      <textarea name="message" rows="1" placeholder="Your Message"></textarea>
+                        <label for="name">Name:</label>
+                        <input type="text" name="your-name" placeholder="Enter Your Name"><br>
+                        <label for="name">Email:</label>
+                        <input type="email" name="your-email" placeholder="Enter Your Email"><br>
+                        <label for="contact-number">Contact Number:</label>
+                        <div class="input-group">
+                            <select id="country-code" name="country-code">
+                                <option value="+1">+1 (USA)</option>
+                                <option value="+44">+44 (UK)</option>
+                                <option value="+91">+91 (India)</option>
+                                <option value="+971">+971 (UAE)</option>
+                                <!-- Add more country codes as needed -->
+                            </select>
+                            <input type="text" id="contact-number" name="contact-number" placeholder="+1" required>
+                        </div>
+                        <label for="name">Enter Your Message:</label>
+                        <textarea name="message" rows="3    " placeholder="Your Message"></textarea>
                         <div class="wrp-chk">
                         <input type="checkbox" id="check"><label for="check">By submitting your phone number, you agree to receiving texts from ClickTap Solutions.</label>
                         <input type="checkbox" id="checkpr"><label for="checkpr">By submitting , you agree to <a href="/assets/privacy.html">Privacy & Policy</a> and <a href="/assets/condition.html">Terms and Conditions</a> from ClickTap Solutions.</label>

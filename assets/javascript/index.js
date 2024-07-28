@@ -1,26 +1,49 @@
-  function openTab(evt, tabName) {
-    var tabContents = document.getElementsByClassName("tab-content");
-    for (var i = 0; i < tabContents.length; i++) {
-      tabContents[i].style.display = "none";
-    }
-    var tabButtons = document.getElementsByClassName("tab-button");
-    for (var i = 0; i < tabButtons.length; i++) {
-      tabButtons[i].classList.remove("active");
-    }
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.classList.add("active");
+function openTab(event, tabId) {
+  var i, tabcontent, tabbuttons;
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
-  document.addEventListener("DOMContentLoaded", function() {
-    // Set default tab
-    var firstTabButton = document.querySelector(".tab-button");
-    if (firstTabButton) {
-      openTab({ currentTarget: firstTabButton }, firstTabButton.getAttribute("data-target"));
+  tabbuttons = document.getElementsByClassName("tab-button");
+  for (i = 0; i < tabbuttons.length; i++) {
+    tabbuttons[i].className = tabbuttons[i].className.replace(" active", "");
+  }
+  document.getElementById(tabId).style.display = "block";
+  event.currentTarget.className += " active";
+}
+
+// Open the first tab by default
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementsByClassName("tab-button")[0].click();
+});
+  //////////////////////////////////////////////////////
+  let nav = document.querySelector("nav");
+  window.onscroll = function() {
+    if(document.documentElement.scrollTop > 20){
+      nav.classList.add("sticky");
+    }else {
+      nav.classList.remove("sticky");
     }
+  }
+ //////////////////////////////////////////////////////
+ document.addEventListener('DOMContentLoaded', function() {
+  const navToggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  navToggle.addEventListener('click', function() {
+      navLinks.classList.toggle('active');
   });
-  
-
-  
-
+});
+ //////////////////////////////////////////////////////
+ function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}   
+  ////////////////////////////////////////////////////// 
 
 
   
