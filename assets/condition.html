@@ -12,6 +12,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -54,6 +59,7 @@
               <a href="/index.html">Home</a>
               <a href="/assets/services.html">Services</a>
               <a href="/assets/about.html">About Us</a>
+              <a href="/assets/port.html">Portfolio</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
@@ -131,34 +137,30 @@
     <section class="frm-end" id="frm">
         <div class="container">
             <div class="row">
+                <h2>Feel Free To Connect With Us</h2>
                 <div class="col-md-8"><div class="img-frm"><img src="/assets/images/frm-img.png" alt=""></div></div>
                 <div class="col-md-4">
                     <div class="frm-wrp">
-                        <div data-aos="fade-up" data-aos-duration="3000"><h2>Feel Free To Connect With Us</h2></div>
                         <form method="post" action="https://script.google.com/macros/s/AKfycbytAbmx5PoxnwAh3e0CnzXfLAkDOasEN-mCn72vMblRswQoJnr34oSsIajyujY5QZu3/exec" name="contact-form">
                             <label for="name">Name:</label>
                             <input type="text" name="your-name" placeholder="Enter Your Name"><br>
                             <label for="name">Email:</label>
                             <input type="email" name="your-email" placeholder="Enter Your Email"><br>
-                            <label for="contact-number">Contact Number:</label>
-                            <div class="input-group">
-                                <select id="country-code" name="country-code">
-                                    <option value="+1">+1 (USA)</option>
-                                    <option value="+44">+44 (UK)</option>
-                                    <option value="+91">+91 (India)</option>
-                                    <option value="+971">+971 (UAE)</option>
-                                    <!-- Add more country codes as needed -->
-                                </select>
-                                <input type="text" id="contact-number" name="contact-number" placeholder="+1" required>
-                            </div>
+                            <label for="contact">Contact Number:</label>
+                             <input type="tel" id="contact" name="contact" placeholder="">
                             <label for="name">Enter Your Message:</label>
-                            <textarea name="message" rows="3    " placeholder="Your Message"></textarea>
-                            <div class="wrp-chk">
-                            <input type="checkbox" id="check"><label for="check">By submitting your phone number, you agree to receiving texts from ClickTap Solutions.</label>
-                            <input type="checkbox" id="checkpr"><label for="checkpr">By submitting , you agree to <a href="../assets/privacy.html">Privacy & Policy</a> and <a href="condition.html">Terms and Conditions</a> from ClickTap Solutions.</label>
-                        </div>
-                        <input type="submit" value="Submit" id="submit">
-                    </form>
+                            <textarea name="message" rows="1" placeholder="Enter Your Message Here"></textarea>
+                            <div class="wrp-check">
+                                <div class="pakka-wrp">
+                                    <div class="wrp-chk">
+                                        <label for="check" class="sm-lab">  <input type="checkbox" id="check">By submitting your phone number, you agree to receiving texts from ClickTap Solutions.</label>
+                                        <label for="checkpr" class="sm-lab"><input type="checkbox" id="checkpr">By submitting , you agree to <a href="/assets/privacy.html">Privacy & Policy</a> and <a href="/assets/condition.html">Terms and Conditions</a> from ClickTap Solutions.</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="submit" value="Submit" id="submit">
+                            
+                        </form>
                     </div>
                 </div>
             </div>
@@ -170,7 +172,7 @@
             <div class="row inf">
                 <div class="col-md-6">
                     <div class="pt-one">
-                        <img src="../images/logo-1-ft.png" alt="" class="logo-ft">
+                        <img src="/assets/images/logo-1-ft.png" alt="" class="logo-ft">
                         <div class="pr-vc">
                             <ul>
                                 <li><a href="/assets/privacy.html">Privacy & Policy</a></li>
@@ -181,8 +183,8 @@
                 </div>
                 <div class="col-md-6">
                     <ul class="ft-li">
-                        <li><p><i class="fa-solid fa-location-dot spc"></i>Three Sugar Creek Center. Sugar Land, 77478</p></li>
-                        <li><p><i class="fa-solid fa-phone spc"></i>+1 (877) 211-9270</p></li> 
+                        <li><p>Three Sugar Creek Center. Sugar Land, 77478<i class="fa-solid fa-location-dot spc"></i></p></li>
+                        <li><p>+1 (877) 211-9270<i class="fa-solid fa-phone spc"></i></p></li> 
                         <li>
                             <ul class="socials">
                                 <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
@@ -257,5 +259,17 @@ form.addEventListener('submit', e => {
   .catch(error => console.error('Error!', error.message))
 })
     </script>
+         <script>
+            document.addEventListener('DOMContentLoaded', function() {
+             const input = document.querySelector("#contact");
+             const iti = window.intlTelInput(input, {
+                 preferredCountries: ['us', 'gb', 'ca'], // Adjust preferred countries as needed
+                 separateDialCode: true,
+                 utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+             });
+             });
+         
+         
+             </script>
 </body>
 </html>

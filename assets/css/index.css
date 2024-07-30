@@ -1,11 +1,11 @@
-body { font-family: "Red Hat Display", sans-serif !important; }
-section { padding: 50px 0px; }
+body { font-family: "Red Hat Display", sans-serif !important;overflow-x: hidden; }
+section {padding: 20px 0px;}
 nav { position: sticky; top: 0px; left: 0px; width: 100%; padding: 20px 70px; transition: all 0.4s ease 0s; z-index: 999; color: rgb(255, 255, 255) !important; }
 nav.sticky { position: fixed; background: rgb(254, 254, 254); box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px; z-index: 999; padding: 5px 20px !important; }
 img.ck-chng { display: none; }
-.nav-links li a:hover { color: rgb(13, 202, 240); }
+.nav-links li a:hover {color: rgb(13, 202, 240);}
 nav.sticky .nav-links li a { color: rgb(0, 0, 0); transition: all 0.4s ease 0s; }
-nav.sticky .nav-links li a:hover { color: rgb(14, 36, 49); }
+nav.sticky .nav-links li a:hover {color: #0a58ca;/* background: azure; */}
 .logo img {width: 100%;padding: 10px 0 0 0;}
 ul.nav-links { display: block; text-align: right; }
 ul.nav-links li {display: inline-block;padding: 15px 40px 0px 0;}
@@ -67,8 +67,8 @@ img.tb-log-2-2 { width: 40%; }
 img.tb-log-2-3 { width: 50%; }
 img.tb-log-2-4 { width: 50%; }
 img.tb-log-2-5 { width: 40%; }
-.do-it-wrp h2 { text-align: center; font-size: 60px; font-weight: 700; padding: 20px 0px; }
-.do-it-wrp p { text-align: center; font-size: 20px; }
+.do-it-wrp h2 {font-size: 60px;font-weight: 700;padding: 20px 0px;text-align: center;}
+.do-it-wrp p {text-align: left;font-size: 20px;}
 .process {padding: 60px 20px;position: sticky;top: 180px;}
 .process h2 {font-size: 60px;font-weight: 700;padding: 0px 0px 20px;color: #fff;}
 .process p {font-size: 20px;color: #fff;}
@@ -81,7 +81,7 @@ img.tb-log-2-5 { width: 40%; }
     position: relative;
     border-bottom: 1px solid rgb(255, 255, 255);
     height: 60vh;
-    z-index: -999;
+    z-index: 1;
     color: rgb(255, 255, 255);
     border-radius: 20px;
     margin: 0 0 20px 0;
@@ -89,15 +89,15 @@ img.tb-log-2-5 { width: 40%; }
 .stick-prs {padding: 0px 0px;}
 .box-pr ul { display: block; padding: 0px; }
 .box-pr li { display: inline-block; font-size: 20px; font-weight: 700; }
-.box-pr h2 { padding: 20px 0px; font-size: 40px; font-weight: 700; }
+.box-pr h2 {padding: 25px 0px;font-size: 40px;font-weight: 700;text-align: left;}
 .box-pr h5 { text-align: right; font-size: 100px; padding: 0px 0px 0px 90px; position: absolute; top: 0px; font-weight: 800; opacity: 0.2; display: none; }
 .box-pr.black { color: rgb(255, 255, 255); }
 span.trans { color: transparent; }
-.img-frm img {width: 80%;padding: 160px 0 0 0;}
+.img-frm img {width: 70%;padding: 50px 0 0 0;}
 input {border-width: 0px 0px 1px;border-top-style: initial;border-right-style: initial;border-left-style: initial;border-top-color: initial;border-right-color: initial;border-left-color: initial;border-image: initial;border-bottom-style: solid;border-bottom-color: rgb(0, 0, 0);padding: 10px 20px;background: transparent;width: 100%;border: 2px solid #000;border-radius: 12px;}
 input[type="submit"] {padding: 10px 30px;border: 0px;background: linear-gradient(90deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);font-size: 20px;font-weight: 700;border-radius: 20px;color: #fff;}
-.frm-wrp h2 { font-size: 50px; font-weight: 700; padding: 40px 0px 0px; }
-section.frm-end { background: rgb(245, 245, 245); }
+.frm-wrp h2 {font-size: 40px;font-weight: 700;/* padding: 40px 0px 0px; */}
+section.frm-end {background: rgb(245, 245, 245);/* height: 170vh; */}
 img.logo-ft {width: 50%;padding: 30px 0 0 0;}
 img.star-ft { width: 40%; }
 footer { background: rgb(0, 70, 149); padding: 10px 0px; color: rgb(255, 255, 255); }
@@ -123,7 +123,7 @@ section.bh-tru-pat { background: rgb(245, 245, 245); text-align: center; }
 .trt-img li { display: inline-block; width: 17%; }
 .trt-img img { width: 100%; }
 /* ///////////////////////////////// aAll Gray walay Parts ///////////////////////////////// */
-.trusted h2, .part-buld, .tab-port h5, .sec-abt-1 h5, .achve h5, .sty h6, .map-wrp h6, section.faq h6, .testi-wrp h6, section.clk h6,section.reviws h6 {color: rgb(0 0 0);font-weight: 200;font-size: 20px;letter-spacing: 10px;padding: 20px 0px;text-align: center;text-transform: uppercase;}
+.trusted h2, .part-buld, .tab-port h5, .sec-abt-1 h5, .achve h5, .sty h6, .map-wrp h6, section.faq h6, .testi-wrp h6, section.clk h6,section.reviws h6,#sld-h6 {color: rgb(0 0 0);font-weight: 200;font-size: 20px;letter-spacing: 10px;padding: 20px 0px;text-align: center;text-transform: uppercase;}
 /* ///////////////////////////////// aAll Gray walay Parts ///////////////////////////////// */
 .build h2 { text-align: left; font-size: 55px; font-weight: 700; }
 span.col-blue { background: rgb(13, 110, 253); color: rgb(255, 255, 255); padding: 0px 5px; }
@@ -218,14 +218,14 @@ ul.ft-li li { display: block; }
 .wrp-tetx {color: rgb(255, 255, 255);padding: 30px 50px;}
 .wrp-tetx h2 {font-size: 50px;font-weight: 800;padding: 20px 0px;}
 .wrp-chk {position: relative;padding: 20px 10px;}
-input#check {position: absolute;left: -190px;top: 37px;padding: 0px;margin: 0px;}
-input#checkpr {position: absolute;left: -190px;top: 127px;}
+input#check {position: absolute;left: -190px;top: 37px;/* padding: 0px; *//* margin: 0px; */}
+input#checkpr {position: absolute;left: -190px;/* top: 127px; */}
 .wrp-tetx h2 { text-align: left !important; }
 .carousel-control-next, .carousel-control-prev { position: absolute; top: 0px; bottom: 0px; z-index: 1; display: flex; align-items: center; justify-content: center; width: 3% !important; }
 .logo-app img { width: 80%; }
 .logo-app ul { display: block; padding: 0px; }
 .logo-app ul li { display: inline-block; }
-img.logo-slider { width: 20%; border-radius: 12px; }
+img.logo-slider {width: 15%;border-radius: 12px;}
 .topnav.blk-dis {display: none;}
 section.sec-1 p {color: #fff;font-size: 20px;padding: 20px 0px;}
 .img-sli-wrp img {
@@ -234,6 +234,7 @@ section.sec-1 p {color: #fff;font-size: 20px;padding: 20px 0px;}
 }
 section.reviws {
     background: whitesmoke;
+    padding: 10px 0 10px;
 }
 .bxs-rv {
     background: #fff;
@@ -253,21 +254,23 @@ textarea {
 }
 .spc {
     font-size: 20px;
-    padding: 0 10px 0 0px;
+    padding: 0 0px 0 20px;
 }
 img.hme-img {
-    width: 100%;
+    width: 80%;
+    margin-left: 70px;
 }
 img.ser-gif {
-    width: 120%;
+    width: 90%;
 }
 .rev-wrp {
     overflow: hidden;
     position: relative;
-    padding: 30px 20px;
+    padding: 0px 0px 0px 60px;
 }
 .wrp-car {
     border-radius: 30px;
+    margin: 0px 30px;
 }
 span.circle {
     position: absolute;
@@ -302,7 +305,7 @@ ul.socials {
 
 ul.socials li {
     display: inline-block;
-    padding: 0px 20px 0 0;
+    padding: 0px 0px 0 20px;
 }
 
 ul.socials i {
@@ -335,33 +338,15 @@ section.stk-prss {
 .do-it-wrp h2 {
     color: #fff;
 }
+.wrp-check {
+    position: relative;
+    /* padding: 20px 0px; */
+    margin: -10px 0 0 0;
+}
 
-span.cirle-test {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #cdd8eb;
-    border-radius: 50%;
-    margin: 10px 20px;
-    left: 570px;
-}
-span.cirle-test-1 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #cdd8eb;
-    border-radius: 50%;
-    margin: 10px 20px;
-    left: 620px;
-}
-span.cirle-test-2 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #cdd8eb;
-    border-radius: 50%;
-    margin: 10px 20px;
-    left: 670px;
+.pakka-wrp {
+    position: relative;
+    width: 100%;
 }
 
 .dropdown-content {
@@ -380,6 +365,7 @@ span.cirle-test-2 {
     text-decoration: none;
     display: block;
     text-align: left;
+    background: antiquewhite;
   }
   
   .dropdown-content a:hover {
@@ -393,7 +379,8 @@ span.cirle-test-2 {
 
   .port-bg { background: url("../images/port-bg1.png") center center / cover no-repeat; }
   .wrp-tetx p {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 200;
 }
 .port-effect {
     position: relative;
@@ -434,11 +421,6 @@ p.pv-bd li {font-size: 20px;}
 span.bg-pcl {color: #084298;}
 
 
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
 .input-group {
     display: flex;
     align-items: center;
@@ -446,9 +428,11 @@ label {
 }
 
 input, select,textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px !important;
+    padding: 10px 0px;
+    border: 1px solid #ccc0;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #ccc;
+    background: whitesmoke;
 }
 
 select {
@@ -477,4 +461,212 @@ li.lets {
 .prt-wrp-text p {
     color: #fff;
     font-size: 20px;
+}
+.pr-vc a:hover {
+    color: #00c1ff;
+}
+/* /////////////////////////pages start services walay ////////////////////////////////////// */
+.ios-bg { background: url("../pages-ser/images/ios-bg.png") center center / cover no-repeat; }
+.ios-pg h1 {
+    font-size: 60px;
+}
+
+.ios-pg h5 {
+    color: #fff;
+    font-size: 30px;
+    padding: 0 0 20px;
+}
+
+.ios-pg p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.ios-tech-r img {
+    width: 30%;
+}
+.ios-tech { background: url("../pages-ser/images/ios-tech.png") center center / cover no-repeat; }
+.states {
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 7px 30px #ffffff70;
+}
+.states:hover {
+    background:linear-gradient(90deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    border: 2px solid #000;
+    box-shadow: 10px 10px 30px #ffffff3b;
+}
+.states h1 {
+    font-weight: 700;
+    padding: 0 0 20px;
+}
+.states.het {
+    height: 100%;
+}
+.col-md-6.lne {
+    border-right: 2px solid #000;
+}
+.steps {
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 40px #00000017;
+}
+.nech {
+    padding: 160px 0 0 0;
+}
+.num-stp {
+    position: absolute;
+}
+
+.num-stp span {
+    position: relative;
+}
+
+.num-stp h6 {
+    font-size: 50px;
+    position: absolute;
+    padding: 0 0 0px 430px;
+    top: -10px;
+    font-weight: 700;
+    color: #0000001f;
+}
+.steps h2 {
+    padding: 0px 0px 20px;
+}
+.num-stp-1 {
+    position: absolute;
+}
+
+.num-stp-1 span {
+    position: relative;
+}
+
+.num-stp-1 h6 {
+    font-size: 50px;
+    position: absolute;
+    padding: 0 0 0px 430px;
+    top: -10px;
+    font-weight: 700;
+    color: #0000001f;
+}
+h2.tech-h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 0 0 20px;
+}
+.steps:hover {
+    background:linear-gradient(270deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);
+    transition: 0.4s ease-in-out;
+    color: #fff;
+}
+section.how {
+    background: rgb(245, 245, 245);
+}
+.choose-ios { background: url("/assets/pages-ser/images/pool-ios.png") center center / cover no-repeat;color: #fff; }
+.coose-wrp {
+    padding: 150px 0 0 0;
+}
+h2.chsse-h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    padding: 0 0 60px;
+}
+.deko {
+    border-right: 2px solid #fff;
+}
+h2.tch-h3 {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    padding: 0 0 60px;
+}
+.deko:hover{background: linear-gradient(35deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);transition: 0.3s;color: #fff;transform: scale(1.05);}
+.carousel-item {transition: transform 2s ease-in-out !important;}
+.slide-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.slide-number .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.carousel-indicators.custom-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style: none;
+}
+.carousel-indicators.custom-indicators li {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.carousel-indicators.custom-indicators li.active {
+    background-color: #007bff;
+}
+.shadows {
+    box-shadow: 0px 10px 40px #00000059;
+}
+section.faq {
+    padding: 20px 0px 25px;
+}
+h2#fe-gd {
+    padding: 0px;
+}
+ul.nav-links.port-nav a {
+    color: #000;
+}
+label {
+    padding: 15px 0px 0px 0px;
+}
+label.sm-lab {
+    font-size: 12px;
+    padding: 5px 0px;
+}
+.iti {
+    width: 100%;
+}
+
+.iti__flag-container {
+    width: 80px;
+    height: 40px;
+}
+.slick-prev, .slick-next {
+    color: black !important; /* Ensure button color is visible */
+}
+h2#sld-h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 0 0 20px 0px;
+}
+section#frm h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+i.fa-solid.fa-bars-staggered {
+    color: #a6c71f;
 }

@@ -17,8 +17,8 @@
   
   
   img.hme-img {
-    width: 100%;
-    padding: 70px 0px;
+    width: 80%;
+    padding: 30px 50px 0 0px;
 }
 .sec-abt-1 h2, .tab-port h2, .achve h2, .sec-services h2, .rwd-wrp h2,.cta-wrp h2,.trust-wrp h2,.do-it-wrp h2{font-size: 40px;}
 .boxs {
@@ -61,7 +61,7 @@ section.story img {
   width: 90%;
 }
 .vsn {
-  margin: 50px 0px;
+  margin: 50px 20px;
 }
 img.port-img{display: none;}
 /* nav {padding:0px;}
@@ -96,11 +96,11 @@ opacity: 0.12;
   padding: 20px 30px;
 }
 input#check {
-  position: absolute;
-  left: -175px;
-  top: 26px;
-  padding: 0px;
-  margin: 0px;
+  position: relative;
+  /* left: -185px; */
+  /* top: 35px; */
+  /* padding: 0px 90px; */
+  margin: 0px 0px 10px 15px;
 }
 .wrp-tetx {
   color: #fff;
@@ -143,16 +143,18 @@ nav {display: none;}
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: #f1f1f1;
   display: block;
   position: absolute;
   right: 0;
-  top: 0;
+  top: -10px;
+  color: #a6c820;
+  font-size: 25px;
 }
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color:rgb(0, 193, 255);
+  background-color: rgb(241 241 241);
   color: black;
 }
 
@@ -195,9 +197,10 @@ img.ser-gif {
   padding: 60px 0px;
 }
 input#checkpr {
-  position: absolute;
-  left: -175px;
-  top: 100px;
+  position: relative;
+  /* left: -acc185px; */
+  top: 25px;
+  margin: 0px 15px 0px 15px;
 }
 .box-pr {
   height: 50vh;}
@@ -205,25 +208,58 @@ input#checkpr {
     width: 30%;
 }
 
+.rev-wrp {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  padding: 0px 0px 0px 0px;
+}
+.num-stp-1 h6 {
+  font-size: 50px;
+  position: absolute;
+  padding: 0 0 0px 230px;
+  top: -10px;}
+  .num-stp h6 {
+    font-size: 50px;
+    position: absolute;
+    padding: 0 0 0px 230px;}
+    ul.ft-li p {
+      font-size: 13px;
+  }
+  span.prt-eff {
+    position: absolute;
+    font-size: 70px;
+    font-weight: 900;}
+  
+    img.vsn-img.mot {
+      padding: 70px 60px;
+      opacity: 0.4;
+  }
+  
+.wrp-car {
+  border-radius: 30px;
+  margin: 0px 0px;
+}
+.slick-prev, .slick-next {
+ display: none !important;
+}
+.home-wrp {
+  padding: 20px 0px;
+}i.fa-solid.fa-bars-staggered {
+  color: #a6c71f;
+}
 
 
 }
-
+@media screen and (min-width: 400px){
+  input#check {
+    position: relative;
+    margin: 0px 0px;
+}
+input#checkpr {
+  position: relative;
+  top: 25px;
+  margin: 0 0px;
+}
+}
 
 
 
