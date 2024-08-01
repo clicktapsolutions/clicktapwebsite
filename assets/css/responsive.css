@@ -154,15 +154,17 @@ nav {display: none;}
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: rgb(241 241 241);
+  /* background-color: #0dcaf0; */
   color: black;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #f1f1f1;
+  background-color: rgb(241 241 241);
   color: white;
-  /* box-shadow: 10px 10px 5px #333; */
+  /* box-shadow: 0px 10px 5px #fff; */
 }
 img.nav-new {
   width: 28%;
@@ -246,6 +248,10 @@ input#checkpr {
 }i.fa-solid.fa-bars-staggered {
   color: #a6c71f;
 }
+.flex-sld {
+  display: block;
+  padding: 0 0 0 00px; 
+}
 
 
 }
@@ -261,6 +267,18 @@ input#checkpr {
 }
 }
 
-
-
+@media screen and (min-width: 1400px){
+  input#check {
+    position: relative;
+    margin: 0px 0px;
+    top: 20px;
+    left: -220px;
+}
+input#checkpr {
+  position: relative;
+  top: 25px;
+  margin: 0px 0px;
+  left: -220px;
+}
+}
 
