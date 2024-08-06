@@ -134,20 +134,21 @@ nav {display: none;}
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
+  background: #fff;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: #f1f1f1;
+  background: #ffffff;
   display: block;
   position: absolute;
   right: 0;
-  top: -10px;
+  top: -1px;
   color: #a6c820;
   font-size: 25px;
 }
@@ -251,7 +252,86 @@ input#checkpr {
 .flex-sld {
   display: block;
   padding: 0 0 0 00px; 
+}.sld-flx img{width: 20%;}.card-sld-off-2 h2,.card-sld-off h2,.card-sld-off-4 h2{font-size: 30px;}.sld-offer p{font-size: 12px;}.log-pgs,.pgs-log-des,.nech .line-prc,span.line-sd{display: none !important;}
+.card-sld-off,.card-sld-off-2,.card-sld-off-4{padding: 20px 30px;}.col-md-6.lne{border: 0px !important;}
+.steps .num-stp h6 {
+  font-size: 50px;
+  position: absolute;
+  padding: 0 0 0px 0px;
 }
+section.how {
+  display: none !important;
+}
+.wrp-how-mob{
+  display: block !important;
+}
+section.how-mob {
+  display: block;
+  background: whitesmoke;
+}
+.steps.mob-pr {
+  opacity: 1;
+}
+/* Style the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: inherit;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  min-height: 200px !important;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 41;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.us-bs p {
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
