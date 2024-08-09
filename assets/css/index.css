@@ -206,6 +206,8 @@ ul.ft-li li { display: block; }
 .wrp-car.tab15 { background: url("/assets/images/slider/home.png "); height: 100vh; }
 .wrp-car.tab16 { background: url("/assets/images/slider/see.png "); height: 100vh; }
 .wrp-car.tab17 { background: url("/assets/images/slider/uglow.png "); height: 100vh; }
+.wrp-car.tab18 { background: url("/assets/images/slider/point-bg.png "); height: 100vh; }
+.wrp-car.tab19 { background: url("/assets/images/slider/life.png "); height: 100vh; }
 .wrp-tetx {color: rgb(255, 255, 255);padding: 20px 20px;}
 .wrp-tetx h2 {font-size: 50px;font-weight: 800;padding: 20px 0px;}
 .wrp-chk {position: relative;padding: 0px 10px;}
@@ -251,11 +253,11 @@ section.stk-prss { padding: 10px 0px; background:linear-gradient(180deg, rgb(0, 
 .port-effect {position: relative;padding: 60px 0px;}
 span.prt-eff {position: absolute;font-size: 120px;font-weight: 900;top: 2px;z-index: -1;color: #0000000f;}
 /* ///////////////////privacy//////////////////////// */
-.pr-vc ul {display: block;padding: 0px;}
+.pr-vc ul {display: block;padding: 70px 0 0 0;}
 .pr-vc li {display: inline-block;padding: 10px 10px;}
 .pr-vc a {color: #fff;}
-.prvcy{background: url("../images/prv.png") center center / cover no-repeat;height: 70vh;}
-.pcy-wrp h2 {font-size: 60px;font-weight: 700;padding: 20px 0px;}
+.prvcy{background: url("../images/prv.png") center center / cover no-repeat;height: 50vh;}
+.pcy-wrp h2 {font-size: 50px;font-weight: 700;padding: 20px 0px;}
 .pcy-wrp p {font-size: 20px;}
 p.pv-bd li {font-size: 20px;}
 span.bg-pcl {color: #084298;}
@@ -509,4 +511,7 @@ section.companies {
 img.gf {
     width: 20%;
     margin: 0px 180px -46px 0px;
+}
+i.fa-solid.fa-envelope {
+    padding: 0 0 0 20px;
 }
