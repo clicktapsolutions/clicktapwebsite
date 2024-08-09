@@ -163,7 +163,7 @@ span.colr-ble { color: rgb(8, 66, 152); padding: 0px 5px; }
 .values p { text-align: center; padding: 30px 0px; }
 h6.cv { font-size: 37px !important; }
 img.vsn-img.mot { padding: 70px 100px; opacity: 0.4; }
-.sty-wrp p { font-size: 20px; color: rgba(0, 0, 0, 0.46); font-weight: 500; padding: 100px 0px; }
+.sty-wrp p {font-size: 20px;color: rgba(0, 0, 0, 0.46);font-weight: 500;padding: 50px 0px;}
 .rwds-wrp:hover { filter: none; transform: scale(0.9); transition: all 0.3s ease-out 0s; }
 .cnt-1 { color: rgb(255, 255, 255); }
 .home-wrp.cnt-1 h1 { color: rgb(255, 255, 255); }
@@ -276,7 +276,6 @@ li.lets {padding: 15px 0 0 40px !important;}
 .pth { background: url("../pages-ser/images/bg-pitch.png") center center / cover no-repeat; }
 .ap-prto { background: url("../pages-ser/images/app-proto-bg.png") center center / cover no-repeat; }
 .webs { background: url("../pages-ser/images/web-devlop-bg.png") center center / cover no-repeat; }
-
 .scsl { background: url("../pages-ser/images/mrkt-bg.png") center center / cover no-repeat; }
 .ios-pg h1 {font-size: 60px;padding: 70px 0 100px 0px;}
 .ios-pg h5 {color: #fff;font-size: 30px;padding: 0 0 20px;}
@@ -433,7 +432,7 @@ section.how-new {background: rgb(245, 245, 245);height: 180vh;}
 .crd6{background: url("/assets/pages-ser/images/reporting.png") center center / cover no-repeat;height: 60vh;border-radius: 20px;color: #fff;padding: 40px 50px;margin: 0px 20px;}
 .crd7{background: url("/assets/pages-ser/images/brand.png") center center / cover no-repeat;height: 60vh;border-radius: 20px;color: #fff;padding: 40px 50px;margin: 0px 20px;}
 
-.frmnw {background: linear-gradient(35deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);border-radius: 70px;/* padding: 0 50px; */margin: 0 50px;}
+.frmnw {background: linear-gradient(35deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);border-radius: 60px;/* padding: 0 50px; */margin: 0 50px;}
 h2.frn-h2 {color: #fff;}
 ul.new-tech-frm {padding: 0px; margin: 0px;display: block;}
 ul.new-tech-frm li {/* display: inline-grid; */width: 49%;display: inline-block;}
@@ -457,13 +456,13 @@ img.crds-logo {width: 30%; padding: 0 0 20px 0px;}
 .img-wrp li {display: inline-block;padding: 0 0px 0 0px;}
 .img-wrp p {font-size: 30px;font-weight: 700;padding: 0px 0 0 0;}
 .img-wrp img {width: 85%;padding: 0px 10px;}
-.light-sm {background: #F5F5F5;height: 33vh;border-radius: 20px;padding: 30px 0px;width: 100%;color: #1D3C50;box-shadow: 0 7px 30px #00000038;}
+.light-sm {background: #F5F5F5;height: 40vh;border-radius: 20px;padding: 30px 0px;width: 100%;color: #1D3C50;box-shadow: 0 7px 30px #00000038;}
 .light-sm:hover{background: linear-gradient(35deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);transition: 0.3s;color: #fff;transform: scale(1.05);}
 .text-wrp-sm {padding: 0 30px;text-align: center;}
 .text-wrp-sm h5 {font-size: 25px;font-weight: 800;}
 .text-wrp-sm p {padding: 0 10px;font-size: 20px;}
-p#unqp {font-size: 12px;}
-section.sm-cds {padding: 50px 0px;}
+p#unqp {font-size: 16px;}
+section.sm-cds {padding: 50px 0px;margin: -80px 0 0px 0;}
 .text-over h2 {font-size: 60px;font-weight: 700;padding: 0 0 40px 0;}
 .text-over p {font-size: 18px;font-weight: 400;}
 img.mb-lght {width: 100%;padding: 0 0px 0 30px;}
@@ -483,35 +482,42 @@ span.gyb-wh {color: #fff0;}
 @keyframes mover {0% { transform: translateY(0); }100% { transform: translateY(-10px); }}
 
 .teches li {display: inline-block;}
-
 .teches img {width: 70%;}
-
 .teches {text-align: center;}
 .teches img:hover {transform: scale(0.8);transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}
-.wrpp-compes ul {
-    display: block;
-}
+.wrpp-compes ul { display: block;}
 
-.wrpp-compes li {
-    display: inline-block;
-    padding: 0 40px;
-}
+.wrpp-compes li {display: inline-block;padding: 0 40px;}
 
-section.companies {
-    background: whitesmoke;
-    padding: 60px 0;
-}
-.wrpp-compes img {
-    filter: grayscale(1);
-}
-.wrpp-compes img:hover {
-    filter: grayscale(0);
-}
+section.companies {background: whitesmoke;padding: 60px 0;}
+.wrpp-compes img {filter: grayscale(1);}
+.wrpp-compes img:hover {filter: grayscale(0);}
 .functions{background: url(/assets/card-pgs/images/funtn.png);color: #fff;}.text-over {padding: 80px 0;}
-img.gf {
-    width: 20%;
-    margin: 0px 180px -46px 0px;
+img.gf {width: 20%;margin: 0px 180px -46px 0px;}
+i.fa-solid.fa-envelope {padding: 0 0 0 20px;}
+.new-crd {
+    margin: 0px;
+    border-radius: 0px;
 }
-i.fa-solid.fa-envelope {
-    padding: 0 0 0 20px;
+
+.logo-app.portts img {
+    width: 90%;
+    margin-right: -30px;
+}
+a.cs {
+    background: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+}
+a.cs:hover{background:linear-gradient(35deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);color: #fff;transition: 0.2s ease-in-out;}
+i.fa-solid.fa-arrow-right.arrws {
+    padding: 4px;
+    font-size: 16px;
+}
+span.blue-prj {
+    background: #009970;
+    color: #fff;
+    padding: 0 10px;
 }
