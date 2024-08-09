@@ -189,25 +189,25 @@ ul.ft-li {padding: 40px 20px 0;display: block;text-align: right;}
 ul.ft-li li { display: block; }
 .img-pr img {position: relative;width: 50%;left: 80px;padding: 30px 0px;}
 .carousel-inner img { width: 100%; height: 100%; }
-.wrp-car.tab1 { background: url("/assets/images/bg-sli.png"); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab2 { background: url("/assets/images/slider/sl.png"); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab3 { background: url("/assets/images/slider/dog.png  "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab4 { background: url("/assets/images/slider/shubuy.png "); height: 100vh; background-repeat: no-repeat;}
-.wrp-car.tab5 { background: url("/assets/images/slider/arch.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab6 { background: url("/assets/images/slider/dat.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab7 { background: url("/assets/images/slider/house.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab8 { background: url("/assets/images/slider/pers.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab9 { background: url("/assets/images/slider/carer.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab10 { background: url("/assets/images/slider/dive.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab11 { background: url("/assets/images/slider/time.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab12 { background: url("/assets/images/slider/chris.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab13 { background: url("/assets/images/slider/good.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab14 { background: url("/assets/images/slider/greens.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab15 { background: url("/assets/images/slider/home.png "); height: 100vh; background-repeat: no-repeat;}
-.wrp-car.tab16 { background: url("/assets/images/slider/see.png "); height: 100vh; background-repeat: no-repeat;}
-.wrp-car.tab17 { background: url("/assets/images/slider/uglow.png "); height: 100vh;background-repeat: no-repeat; }
-.wrp-car.tab18 { background: url("/assets/images/slider/point-bg.png "); height: 100vh; background-repeat: no-repeat;}
-.wrp-car.tab19 { background: url("/assets/images/slider/life.png "); height: 100vh; background-repeat: no-repeat;}
+.wrp-car.tab1 { background: url("/assets/images/bg-sli.png"); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center; }
+.wrp-car.tab2 { background: url("/assets/images/slider/sl.png"); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
+.wrp-car.tab3 { background: url("/assets/images/slider/dog.png  "); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
+.wrp-car.tab4 { background: url("/assets/images/slider/shubuy.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
+.wrp-car.tab5 { background: url("/assets/images/slider/arch.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
+.wrp-car.tab6 { background: url("/assets/images/slider/dat.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
+.wrp-car.tab7 { background: url("/assets/images/slider/house.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
+.wrp-car.tab8 { background: url("/assets/images/slider/pers.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
+.wrp-car.tab9 { background: url("/assets/images/slider/carer.png "); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
+.wrp-car.tab10 { background: url("/assets/images/slider/dive.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
+.wrp-car.tab11 { background: url("/assets/images/slider/time.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
+.wrp-car.tab12 { background: url("/assets/images/slider/chris.png "); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
+.wrp-car.tab13 { background: url("/assets/images/slider/good.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
+.wrp-car.tab14 { background: url("/assets/images/slider/greens.png "); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
+.wrp-car.tab15 { background: url("/assets/images/slider/home.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
+.wrp-car.tab16 { background: url("/assets/images/slider/see.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
+.wrp-car.tab17 { background: url("/assets/images/slider/uglow.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
+.wrp-car.tab18 { background: url("/assets/images/slider/point-bg.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
+.wrp-car.tab19 { background: url("/assets/images/slider/life.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
 .wrp-tetx {color: rgb(255, 255, 255);padding: 20px 20px;}
 .wrp-tetx h2 {font-size: 50px;font-weight: 800;padding: 20px 0px;}
 .wrp-chk {position: relative;padding: 0px 10px;}
