@@ -61,7 +61,7 @@
   ul.ft-li p {font-size: 13px;}
   span.prt-eff {position: absolute;font-size: 70px;font-weight: 900;}
   img.vsn-img.mot {padding: 70px 60px;opacity: 0.4;}
-  .wrp-car {border-radius: 0px;margin: 0px 0px;}
+  .wrp-car {border-radius: 30px;margin: 0px 0px;}
   .slick-prev, .slick-next {display: none !important;}
   .home-wrp {padding: 20px 0px;}
   i.fa-solid.fa-bars-staggered {color: #a6c71f;}

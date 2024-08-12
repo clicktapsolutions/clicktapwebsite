@@ -189,25 +189,25 @@ ul.ft-li {padding: 40px 20px 0;display: block;text-align: right;}
 ul.ft-li li { display: block; }
 .img-pr img {position: relative;width: 50%;left: 80px;padding: 30px 0px;}
 .carousel-inner img { width: 100%; height: 100%; }
-.wrp-car.tab1 { background: url("/assets/images/bg-sli.png"); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center; }
-.wrp-car.tab2 { background: url("/assets/images/slider/sl.png"); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
-.wrp-car.tab3 { background: url("/assets/images/slider/dog.png  "); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
-.wrp-car.tab4 { background: url("/assets/images/slider/shubuy.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
-.wrp-car.tab5 { background: url("/assets/images/slider/arch.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
-.wrp-car.tab6 { background: url("/assets/images/slider/dat.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
-.wrp-car.tab7 { background: url("/assets/images/slider/house.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
-.wrp-car.tab8 { background: url("/assets/images/slider/pers.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
-.wrp-car.tab9 { background: url("/assets/images/slider/carer.png "); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
-.wrp-car.tab10 { background: url("/assets/images/slider/dive.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
-.wrp-car.tab11 { background: url("/assets/images/slider/time.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
-.wrp-car.tab12 { background: url("/assets/images/slider/chris.png "); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
-.wrp-car.tab13 { background: url("/assets/images/slider/good.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
-.wrp-car.tab14 { background: url("/assets/images/slider/greens.png "); height: 100vh;background-repeat: no-repeat;background-size: cover;background-position: center }
-.wrp-car.tab15 { background: url("/assets/images/slider/home.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
-.wrp-car.tab16 { background: url("/assets/images/slider/see.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
-.wrp-car.tab17 { background: url("/assets/images/slider/uglow.png "); height: 100vh;background-repeat: no-repeat; background-size: cover;background-position: center}
-.wrp-car.tab18 { background: url("/assets/images/slider/point-bg.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
-.wrp-car.tab19 { background: url("/assets/images/slider/life.png "); height: 100vh; background-repeat: no-repeat;background-size: cover;background-position: center}
+.wrp-car.tab1 { background: url("/assets/images/bg-sli.png"); height: 100vh; }
+.wrp-car.tab2 { background: url("/assets/images/slider/sl.png"); height: 100vh; }
+.wrp-car.tab3 { background: url("/assets/images/slider/dog.png  "); height: 100vh; }
+.wrp-car.tab4 { background: url("/assets/images/slider/shubuy.png "); height: 100vh; }
+.wrp-car.tab5 { background: url("/assets/images/slider/arch.png "); height: 100vh; }
+.wrp-car.tab6 { background: url("/assets/images/slider/dat.png "); height: 100vh; }
+.wrp-car.tab7 { background: url("/assets/images/slider/house.png "); height: 100vh; }
+.wrp-car.tab8 { background: url("/assets/images/slider/pers.png "); height: 100vh; }
+.wrp-car.tab9 { background: url("/assets/images/slider/carer.png "); height: 100vh; }
+.wrp-car.tab10 { background: url("/assets/images/slider/dive.png "); height: 100vh; }
+.wrp-car.tab11 { background: url("/assets/images/slider/time.png "); height: 100vh; }
+.wrp-car.tab12 { background: url("/assets/images/slider/chris.png "); height: 100vh; }
+.wrp-car.tab13 { background: url("/assets/images/slider/good.png "); height: 100vh; }
+.wrp-car.tab14 { background: url("/assets/images/slider/greens.png "); height: 100vh; }
+.wrp-car.tab15 { background: url("/assets/images/slider/home.png "); height: 100vh; }
+.wrp-car.tab16 { background: url("/assets/images/slider/see.png "); height: 100vh; }
+.wrp-car.tab17 { background: url("/assets/images/slider/uglow.png "); height: 100vh; }
+.wrp-car.tab18 { background: url("/assets/images/slider/point-bg.png "); height: 100vh; }
+.wrp-car.tab19 { background: url("/assets/images/slider/life.png "); height: 100vh; }
 .wrp-tetx {color: rgb(255, 255, 255);padding: 20px 20px;}
 .wrp-tetx h2 {font-size: 50px;font-weight: 800;padding: 20px 0px;}
 .wrp-chk {position: relative;padding: 0px 10px;}
@@ -448,16 +448,18 @@ label.uper-mesg {margin: -20px 0 0px 0px;}
 
 /* /////////////////////////////////////////// cards pages ////////////////////////////////////////////////////// */
 .light-bg {background: url("/assets/card-pgs/images/light-hus.png") center top / cover no-repeat;}
-.light-hed h1 {font-size: 90px;font-weight: 700;padding: 0 0 20px 0;}
-.light-hed p {font-size: 15px;padding: 0 0 20px 0;color: #fff;}
+.sea-sp-bg {background: url("/assets/card-pgs/images/sea-bg-pg.png") center top / cover no-repeat;}
+.light-hed h1 {font-size: 80px;background: -webkit-linear-gradient(#05e17b, #23946e);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-weight: 900;}
+.cursea-hed h1 {font-size: 80px;background: -webkit-linear-gradient(#13738a, #ff9c9d);-webkit-background-clip: text;-webkit-text-fill-color: transparent;font-weight: 900;}
+.light-hed p,.cursea-hed p {font-size: 15px;padding: 0 0 20px 0;color: #fff;}
 img.main-img {width: 100%;text-align: center;padding: 0 0px 0 80px;}
-img.crds-logo {width: 30%; padding: 0 0 20px 0px;}
+img.crds-logo {width: 30%;/* padding: 0 0 20px 0px; */border-radius: 20px;}
 .img-wrp ul { display: block;}
 .img-wrp li {display: inline-block;padding: 0 0px 0 0px;}
 .img-wrp p {font-size: 30px;font-weight: 700;padding: 0px 0 0 0;}
 .img-wrp img {width: 85%;padding: 0px 10px;}
 .light-sm {background: #F5F5F5;height: 40vh;border-radius: 20px;padding: 30px 0px;width: 100%;color: #1D3C50;box-shadow: 0 7px 30px #00000038;}
-.light-sm:hover{background: linear-gradient(35deg, rgb(0, 70, 149) 0%, rgb(0, 212, 255) 100%);transition: 0.3s;color: #fff;transform: scale(1.05);}
+.light-sm:hover{background: linear-gradient(118deg, #009970, rgb(51 198 175) 100%);transition: 0.3s;color: #fff;transform: scale(1.05);box-shadow: 0 7px 30px #009970;}
 .text-wrp-sm {padding: 0 30px;text-align: center;}
 .text-wrp-sm h5 {font-size: 25px;font-weight: 800;}
 .text-wrp-sm p {padding: 0 10px;font-size: 20px;}
@@ -466,7 +468,6 @@ section.sm-cds {padding: 50px 0px;margin: -80px 0 0px 0;}
 .text-over h2 {font-size: 60px;font-weight: 700;padding: 0 0 40px 0;}
 .text-over p {font-size: 18px;font-weight: 400;}
 img.mb-lght {width: 100%;padding: 0 0px 0 30px;}
-section.prj-over {background: #F5F5F5;}
 ul.fun-r1 {display: block;}
 ul.fun-r1 li {display: inline-block;padding: 0 25px;}
 ul.fun-r1 p {text-align: center;font-size: 20px;font-weight: 700;padding: 0px 0 0 0;color: #ffff;}
@@ -492,7 +493,7 @@ span.gyb-wh {color: #fff0;}
 section.companies {background: whitesmoke;padding: 60px 0;}
 .wrpp-compes img {filter: grayscale(1);}
 .wrpp-compes img:hover {filter: grayscale(0);}
-.functions{background: url(/assets/card-pgs/images/funtn.png);color: #fff;}.text-over {padding: 80px 0;}
+.functions{background: url(/assets/card-pgs/images/funtn.png);color: #fff;background-attachment: fixed;}.text-over {padding: 80px 0;}
 img.gf {width: 20%;margin: 0px 180px -46px 0px;}
 i.fa-solid.fa-envelope {padding: 0 0 0 20px;}
 .new-crd {
@@ -521,3 +522,12 @@ span.blue-prj {
     color: #fff;
     padding: 0 10px;
 }
+video {
+    width: 100%;
+}
+.prj-over{background: url(/assets/card-pgs/images/lght-bg.png);}
+.prj-over-sea{background: url(/assets/card-pgs/images/sea-bg.png);}
+img.main-img-sea {
+    width: 100%;
+}
+.sea:hover{background: linear-gradient(207deg, rgb(255 84 86) 0%, rgb(4 109 133) 100%);color: #000;transition: 0.2s ease-in-out;box-shadow: 0px 7px 30px #ff45498a;}
