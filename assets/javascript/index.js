@@ -80,6 +80,16 @@ document.addEventListener('DOMContentLoaded', () => {
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
     })();
+///////////////////////////////////////////////////
+$(document).ready(function(){
+  $('.slider-cd-po').slick({
+      autoplay: true,
+      autoplaySpeed: 1500,
+      dots: false,
+      arrows: true,
+  });
+});
+/////////////////////////////////////
 
 
 
