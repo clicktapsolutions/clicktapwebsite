@@ -29,7 +29,7 @@
   .boxs-ser .col-md-4 { padding: 10px 0 30px 10px;}
   .bxs-rwds .col-md-4 {padding: 20px 0 40px 20px;}
   section.cta-1 {margin: 0px 10px;}
-  .number {font-size: 80px;right: 15px;font-weight: 600;opacity: 0.12;}
+  .number {font-size: 80px;right: 15px;font-weight: 600;opacity: 0.5;}
   .row.newrow {padding: 30px 0px 0px 0px;margin: -80px 0 0 0;}
   .img-pr img {left: 12px;width: 60%;opacity: 0.05;top: 27px;}
   .wrp-chk {position: relative;padding: 20px 30px;}
@@ -66,12 +66,12 @@
   .home-wrp {padding: 20px 0px;}
   i.fa-solid.fa-bars-staggered {color: #a6c71f;}
   .flex-sld {display: block;padding: 0 0 0 00px;}
-  .sld-flx img{width: 20%;}.card-sld-off-2 h2,.card-sld-off h2,.card-sld-off-4 h2{font-size: 30px;}.sld-offer p{font-size: 12px;}.log-pgs,.pgs-log-des,.nech .line-prc,span.line-sd{display: none !important;}
+  .sld-flx img{width: 20%;}.card-sld-off-2 h2,.card-sld-off h2,.card-sld-off-4 h2{font-size: 30px;}.sld-offer p{font-size: 15px;font-weight: 600;}.log-pgs,.pgs-log-des,.nech .line-prc,span.line-sd{display: none !important;}
   .card-sld-off,.card-sld-off-2,.card-sld-off-4{padding: 20px 30px;}.col-md-6.lne{border: 0px !important;}
   .steps .num-stp h6 {font-size: 50px;position: absolute;padding: 0 0 0px 0px;}
   section.how {display: none !important;}
   .wrp-how-mob{display: block !important;}
-  section.how-mob {display: block;background: whitesmoke;}
+  section.how-mob {display: block;background: url(/assets/images/Our-Process.png);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;overflow-x: hidden;}
   .steps.mob-pr { opacity: 1;}
   
   .dropdown {position: relative;display: inline-block;width: 100%;}
@@ -125,7 +125,6 @@ ul.socials {margin: -20px 0 0 -20px;}
 .sld-mob .ul-logo li {display: flex;}
 .sld-mob img.logo-slider {width: 20%;border-radius: 12px;padding: 0px 0px;margin: 20px 0 0 0;}
 .sld-mob .wrp-car {border-radius: 0px;margin: 0px 0px;background-position: center !important;padding: 10px 20px;}
-.new-crd {height: auto;}
 .sld-mob .new-crd {height: 100vh;}
 p#nechy {padding: 30px 0 40px 0;}
 section.sec-1 p {color: #fff;font-size: 20px;padding: 0px 0px 30px;}
@@ -144,27 +143,43 @@ img.logo-sli-mob-ver {width: 80%;border-radius: 12px;}
 .logo-app-mob-ver img {width: 100%;}
 #uper-mobs{margin: 0px 0 0 0px;position: relative;top: -25px;}
 .tabs-sld-mob-1 {border-radius: 20px;}
-section.sld-for-mob {display: block;}
+section.sld-for-mob {display: block;background: url(/assets/images/mobs-bg.png);background-size: cover;background-repeat: no-repeat;background-position: center;background-attachment: fixed;}
 h2.mob-port {text-align: center;font-size: 35px;font-weight: 800;}
 section#frm h2 {text-align: center;font-size: 40px;font-weight: 700;}
+.why-us h2,h2.tech-h2,h2.off-sld,h2.fq-h2 {font-size: 40px;}
+section.mobile-vers .wrp-car {
+  border-radius: 0px;
+}
+
+.rev-mob-new ul {display: block;text-align: center;padding: 0px;}
+
+.rev-mob-new li {display: inline-block;}
+.desktop-rev {display: none;}
+.mob-reviews {display: block;}
+
+.steps.mob-pr p {font-weight: 700;}
+.us-bs {height: auto;} 
 
 
 
-.rev-mob-new ul {
-  display: block;
-  text-align: center;
-  padding: 0px;
-}
 
-.rev-mob-new li {
-  display: inline-block;
-}
-.desktop-rev {
-  display: none;
-}
-.mob-reviews {
-  display: block;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   }
@@ -176,12 +191,13 @@ section#frm h2 {text-align: center;font-size: 40px;font-weight: 700;}
   {
     input#check {margin: 0px -0px;}
   input#checkpr {margin: 0px 0px;}
-  .us-bs {padding: 20px 40px;border-radius: 20px;color: #000000;height: 30vh;box-shadow: 0px 10px 35px #0000005e;} 
+ 
   .sm-prts img {width: 10%;padding: 9px 0px 0 0px;}
   .sld-mob .wrp-car {border-radius: 0px;margin: 0px 0px;background-position: center !important;padding: 10px 20px;height: 85vh;}
-  .wrp-car {border-radius: 0px;margin: 0px 0px;background-position: center !important;padding: 60px 20px;}
+  .wrp-car {border-radius: 30px;margin: 0px 0px;background-position: center !important;padding: 60px 20px;}
   .vsn {margin: 50px 20px;}      
   label.sm-lab {font-size: 12px;padding: 5px 10px;}
+  /* .card-sld-off,.card-sld-off-2,.card-sld-off-4{padding: 20px 30px;height: 45vh;} */
 
 }
   
