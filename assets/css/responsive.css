@@ -161,15 +161,33 @@ section.mobile-vers .wrp-car {
 .us-bs {height: auto;} 
 
 
+.home-wrp.prv span.bg-blue {
+  top: 0px;
+  margin: 0 0 0 10px;
+}
 
 
+.prvcy {
+  height: 30vh;
+}
+
+section.her-sec-serv {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+section.sec-1 {
+  left: 0px;top: 50px;
+}
 
 
-
-
-
-
-
+.chek {
+  height: 70vh;
+}
+.serv-bg {
+height: 70vh;
+position: relative;
+}
 
 
 
@@ -205,6 +223,10 @@ section.mobile-vers .wrp-car {
   input#check {margin: 0px 0px;top: 20px;}
   input#checkpr {top: 20px;margin: 0px -7px;}  
   .sm-prts img {width: 10%;padding: 9px 0px 0 0px;}
+  .serv-bg {
+    height: 70vh;
+    position: relative;
+}
   }
   
   
