@@ -258,7 +258,7 @@ section.reviws {background: whitesmoke;padding: 10px 0 10px;}
 .bxs-rv p{font-size: 16px;}
 textarea {border: 2px solid #000;background: transparent;border-bottom: 1px solid;width: 100%;padding: 10px 20px;border-radius: 12px;}
 .spc {font-size: 20px;padding: 0 0px 0 20px;}
-img.hme-img {width: 70%;margin-left: 50px;}
+img.hme-img {width: 70%;margin-left: 50px;margin-top: -30px;}
 .rev-wrp {overflow: hidden;position: relative;padding: 0px 0px 0px 60px;}
 .btn-cta a:hover {background: #0d6efd;color: #000;}
 label {/* padding: 10px 0px; */font-weight: 800;}
