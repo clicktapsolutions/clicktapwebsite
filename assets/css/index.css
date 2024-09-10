@@ -302,12 +302,12 @@ li.lets {padding: 15px 0 0 40px !important;}
 .prt-wrp-text p {color: #fff;font-size: 20px;}
 .pr-vc a:hover {color: #00c1ff;}
 /* /////////////////////////pages start services walay ////////////////////////////////////// */
-.ios-bg {background: url("../pages-ser/images/ios-bg.png") center center / cover no-repeat;background-attachment: fixed;}
-.ando { background: url("../pages-ser/images/bg-ando.png") center center / cover no-repeat; }
-.pth {background: url("../pages-ser/images/bg-pitch.png") center center / cover no-repeat;background-attachment: fixed;}
-.ap-prto { background: url("../pages-ser/images/app-proto-bg.png") center center / cover no-repeat; }
-.webs { background: url("../pages-ser/images/web-devlop-bg.png") center center / cover no-repeat; }
-.scsl { background: url("../pages-ser/images/mrkt-bg.png") center center / cover no-repeat; }
+.ios-bg {background: url("../pages-ser/images/ios-bg.png") center center / cover no-repeat;background-attachment: fixed;height: 100vh;}
+.ando { background: url("../pages-ser/images/bg-ando.png") center center / cover no-repeat;height: 100vh; }
+.pth {background: url("../pages-ser/images/bg-pitch.png") center center / cover no-repeat;background-attachment: fixed;height: 80vh;}
+.ap-prto { background: url("../pages-ser/images/app-proto-bg.png") center center / cover no-repeat; height: 80vh;}
+.webs { background: url("../pages-ser/images/web-devlop-bg.png") center center / cover no-repeat;height: 90vh; }
+.scsl { background: url("../pages-ser/images/mrkt-bg.png") center center / cover no-repeat;height: 100vh; }
 .ios-pg h1 {font-size: 60px;padding: 70px 0 100px 0px;}
 .ios-pg h5 {color: #fff;font-size: 30px;padding: 0 0 20px;}
 .ios-pg p {font-size: 20px;font-weight: 300;}
@@ -650,4 +650,7 @@ p.apz-2-2 {
 }
 section.our-ser-2 {
     background: #f5f5f5;
+}
+nav.whte a {
+    color: #000 !important;
 }
