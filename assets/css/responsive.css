@@ -174,25 +174,46 @@ section.mobile-vers .wrp-car {
 section.her-sec-serv {
   position: absolute;
   left: 0px;
-  top: 100px;
+  top: 50px;
 }
 section.sec-1 {
-  left: 0px;top: 50px;
+  left: 0px;
+  top: 30px;
 }
 
 
 .chek {
-  height: 70vh;
+  height: 80vh;
 }
 .serv-bg {
-height: 70vh;
+height: 80vh;
 position: relative;
 }
 
+h4.apz {
+  font-size: 30px;
+  font-weight: 600;
+}
 
+h6.apz-1 {
+display: none;
+}
 
+p.apz-2 {
+  font-size: 18px;
+}
 
-
+.swiper {
+  width: 75%; /* Full width for extra small devices */
+  height: 400px; /* Adjust height dynamically */
+  margin: 0 20px;
+}
+.col-md-6.mrg-up {
+  margin: 60px 0 0 0;
+}
+p.apz-2-2 {
+  font-size: 14px;    font-weight: 400;
+}
 
 
 
