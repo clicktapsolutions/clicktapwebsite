@@ -654,3 +654,119 @@ section.our-ser-2 {
 nav.whte a {
     color: #000 !important;
 }
+
+.testiSwiper {
+  width: 1000px;
+  height: 450px;
+ 
+}
+
+.testi-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; box-shadow: 0 7px 30px #00000020;
+}
+img.comms {
+  width: 30%;
+  padding: 10px 20px;
+}
+
+.conta-new-tst h6 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.conta-new-tst p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.conta-new-tst {
+  padding: 10px 20px;
+}
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group input {
+  width: 100%;
+}
+.form-group div {
+  flex: 1; /* Ensures both inputs take up equal space */
+}
+.iti {
+  width: 100%;
+}
+
+.checkbox-group {
+  margin-bottom: 10px;
+}
+
+.checkbox-group label {
+  display: inline-flex;
+  font-size: 12px;
+  padding: 10px 0px 10px 0px;
+}
+input#checkbox1 {
+  margin: 0px 10px 0 0;
+}
+input#checkbox2 {
+  margin: 0px 10px 0 0;
+}
+
+.unique-swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.unique-swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 300px;
+}
+
+.unique-swiper-slide img {
+  display: block;
+  width: 65%;
+  margin: 0 0 0 120px;
+  padding: 20px 0;
+}
+.swiper-slide.unique-swiper-slide {
+  background: #f5f5f5;
+}
+.conre h6 {
+  font-size: 110px;
+  font-weight: 700;
+}
+ /* Style the pagination dots */
+ .swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  background: #000;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+section.rv-new {
+  background: #f5f5f5;
+}
+img.nw-sld-pr {
+  width: 30%;
+  margin: 0 0 0 20px;
+  border-radius: 20px;
+}
+h2.clnt-sy{display:block;}

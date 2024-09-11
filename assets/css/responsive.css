@@ -212,8 +212,37 @@ p.apz-2 {
   margin: 60px 0 0 0;
 }
 p.apz-2-2 {
-  font-size: 14px;    font-weight: 400;
+  font-size: 14px;font-weight: 400;
 }
+.conre h6 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.unique-swiper-slide img {
+  display: block;
+  width: 100%;
+  margin: 0 0 0 0px;
+  padding: 0px 0;
+  height: 400px;
+}
+.conre {
+  display: none;
+}
+.rev-mob-new img {
+  width: 100%;
+  border-radius: 20px;
+}
+h2.clnt-sy {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  display: block;
+}
+
+
+
+
 
 
 

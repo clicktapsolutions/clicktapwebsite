@@ -505,31 +505,39 @@
                         <div class="col-md-6">
                             <div class="newframe">
                                 <div class="frm-wrp">
-                                    <form method="post" action="https://script.google.com/macros/s/AKfycbytAbmx5PoxnwAh3e0CnzXfLAkDOasEN-mCn72vMblRswQoJnr34oSsIajyujY5QZu3/exec" name="contact-form">
+                                    <form id="contact-form">
                                         <label for="name">Name:</label>
-                                        <input type="text" name="your-name" placeholder="Enter Your Name"><br>
-                                        <ul class="new-tech-frm">
-                                            <li>
-                                                <label for="name">Email:</label>
-                                                <input type="email" name="your-email" placeholder="Enter Your Email"><br>  
-                                            </li>
-                                            <li>
+                                        <input type="text" name="from_name" id="name" placeholder="Enter Your Name" required pattern="[A-Za-z\s]{3,}" title="Name should contain at least 3 letters and only alphabetic characters"><br>
+                                
+                                        <div class="form-group">
+                                            <div>
+                                                <label for="email">Email:</label>
+                                                <input type="email" name="your-email" id="email" placeholder="Enter Your Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address">
+                                            </div>
+                                            <div>
                                                 <label for="contact">Contact Number:</label>
-                                                <input type="tel" id="contact" name="contact" placeholder="">
-                                            </li>
-                                        </ul>
-                                        <label for="name" class="uper-mesg">Message:</label>
-                                        <textarea name="message" rows="1" placeholder="Enter Your Message Here"></textarea>
-                                        <div class="wrp-check">
-                                            <div class="pakka-wrp">
-                                                <div class="wrp-chk">
-                                                    <label for="check" class="sm-lab">  <input type="checkbox" id="check">By submitting your phone number, you agree to receiving texts from ClickTap Solutions.</label>
-                                                    <label for="checkpr" class="sm-lab"><input type="checkbox" id="checkpr">By submitting , you agree to <a href="/assets/privacy.html" class="a-blk">Privacy & Policy</a> and <a href="/assets/condition.html" class="a-blk">Terms and Conditions</a> from ClickTap Solutions.</label>
-                                                </div>
+                                                <input type="tel" id="phone" name="contact" placeholder="Enter Your Contact Number" required>
+                                                <input type="hidden" id="phone_full" name="phone_full"> <!-- Hidden field to store full phone number with country code -->
                                             </div>
                                         </div>
-                                        <input type="submit" value="Submit" id="submit" class="frm-new-sub">
-                                        
+                                
+                                        <label for="message">Message:</label>
+                                        <textarea name="message" rows="3" placeholder="Enter Your Message Here" required></textarea><br>
+                                
+                                        <div class="checkbox-group">
+                                            <label>
+                                                <input type="checkbox" id="checkbox1" name="consent1" required>
+                                                By submitting your phone number, you agree to receiving texts from ClickTap Solutions.
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" id="checkbox2" name="consent2" required>
+                                                By submitting, you agree to <a href="/assets/privacy.html" class="a-blk">Privacy & Policy</a> and <a href="/assets/condition.html" class="a-blk">Terms and Conditions</a> from ClickTap Solutions.
+                                            </label>
+                                        </div>
+                                
+                                        <div class="error" id="error-message"></div>
+                                
+                                        <input type="submit" value="Submit">
                                     </form>
                                 </div>
                             </div>
@@ -551,24 +559,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <!-- <h6>Testimonials</h6> -->
-                <h2>What Our Clients Say</h2>
+                <h2 class="clnt-sy">What Our Clients Say</h2>
                 <div class="desktop-rev">
                 <div class="slider">
                     <div>
                         <div class="flex-sld">
-                            <img src="/assets/images/smith.png" alt="">
-                            <img src="/assets/images/smith (2).png" alt="">
-                            <img src="/assets/images/smith (4).png" alt="">
-
+                            <img src="/assets/images/Mary Smith.png" alt="" class="nw-sld-pr">
+                            <img src="/assets/images/Mary Smith-2.png" alt="" class="nw-sld-pr">
+                            <img src="/assets/images/Mary Smith-3.png" alt="" class="nw-sld-pr">
                         </div>
                     </div>
                     <div>
                         <div class="flex-sld">
-                            <img src="/assets/images/smith (3).png" alt="">
-                            <img src="/assets/images/smith (5).png" alt="">
-                            <img src="/assets/images/smith (6).png" alt="">
-
+                            <img src="/assets/images/Mary Smith-4.png" alt="" class="nw-sld-pr">
+                            <img src="/assets/images/Mary Smith-5.png" alt=""class="nw-sld-pr">
+                            <img src="/assets/images/Mary Smith-6.png" alt=""class="nw-sld-pr">
                         </div>
                     </div>
                 </div>
@@ -578,49 +583,42 @@
                         <div>
                             <div class="rev-mob-new">
                                 <ul>
-                                    <li><img src="/assets/images/smith.png" alt=""></li>
+                                    <li><img src="/assets/images/Mary Smith.png" alt=""></li>
                                 </ul>
                             </div>
                         </div>
                         <div>
                             <div class="rev-mob-new">
                                 <ul>
-                                    <li><img src="/assets/images/smith (2).png" alt=""></li>
+                                    <li><img src="/assets/images/Mary Smith-2.png" alt=""></li>
                                 </ul>
                             </div>
                         </div>
                         <div>
                             <div class="rev-mob-new">
                                 <ul>
-                                    <li><img src="/assets/images/smith (3).png" alt=""></li>
+                                    <li><img src="/assets/images/Mary Smith-3.png" alt=""></li>
                                 </ul>
                             </div>
                         </div>
                         <div>
                             <div class="rev-mob-new">
                                 <ul>
-                                    <li><img src="/assets/images/smith (4).png" alt=""></li>
+                                    <li><img src="/assets/images/Mary Smith-4.png" alt=""></li>
                                 </ul>
                             </div>
                         </div>
                         <div>
                             <div class="rev-mob-new">
                                 <ul>
-                                    <li><img src="/assets/images/smith (5).png" alt=""></li>
+                                    <li><img src="/assets/images/Mary Smith-5.png" alt=""></li>
                                 </ul>
                             </div>
                         </div>
                         <div>
                             <div class="rev-mob-new">
                                 <ul>
-                                    <li><img src="/assets/images/smith (6).png" alt=""></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="rev-mob-new">
-                                <ul>
-                                    <li><img src="/assets/images/smith (7).png" alt=""></li>
+                                    <li><img src="/assets/images/Mary Smith-6.png" alt=""></li>
                                 </ul>
                             </div>
                         </div>
@@ -714,6 +712,108 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- EmailJS SDK -->
+
+        <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize EmailJS with your User ID
+        emailjs.init("Dn2KpuxGVG43ASB_-"); // Replace with your EmailJS User ID
+
+        // Initialize intl-tel-input on the phone input field
+        const phoneInputField = document.querySelector("#phone");
+        const phoneFullField = document.querySelector("#phone_full");
+
+        const iti = window.intlTelInput(phoneInputField, {
+            initialCountry: "auto", // Set initial country (optional)
+            separateDialCode: true, // Shows the country code separately
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/utils.js"
+        });
+
+        // Form Validation
+        function validateForm() {
+            const name = document.querySelector('input[name="from_name"]');
+            const email = document.querySelector('input[name="your-email"]');
+            const phone = document.querySelector('input[name="contact"]');
+            const message = document.querySelector('textarea[name="message"]');
+            const checkbox1 = document.querySelector('#checkbox1');
+            const checkbox2 = document.querySelector('#checkbox2');
+            const errorMessage = document.getElementById('error-message');
+
+            errorMessage.innerHTML = ''; // Clear previous error messages
+
+            // Validate name (should only contain alphabets and spaces)
+            const namePattern = /^[A-Za-z\s]{3,}$/;
+            if (!namePattern.test(name.value)) {
+                errorMessage.innerHTML = 'Name should contain at least 3 alphabetic characters.';
+                name.focus();
+                return false;
+            }
+
+            // Validate email
+            const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+            if (!emailPattern.test(email.value)) {
+                errorMessage.innerHTML = 'Please enter a valid email address.';
+                email.focus();
+                return false;
+            }
+
+            // Validate phone (using intl-tel-input library)
+            if (!iti.isValidNumber()) {
+                errorMessage.innerHTML = 'Please enter a valid phone number.';
+                phone.focus();
+                return false;
+            } else {
+                // If valid, store the full phone number with country code in hidden field
+                phoneFullField.value = iti.getNumber();
+            }
+
+            // Validate message (should not be empty)
+            if (message.value.trim() === "") {
+                errorMessage.innerHTML = 'Please enter your message.';
+                message.focus();
+                return false;
+            }
+
+            // Validate checkboxes
+            if (!checkbox1.checked) {
+                errorMessage.innerHTML = 'You must agree to receiving texts from ClickTap Solutions.';
+                return false;
+            }
+
+            if (!checkbox2.checked) {
+                errorMessage.innerHTML = 'You must agree to Privacy & Policy and Terms and Conditions.';
+                return false;
+            }
+
+            return true; // Return true if validation passes
+        }
+
+        // Handle form submission
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Run validation
+            if (validateForm()) {
+                // Send form data using EmailJS if validation passes
+                emailjs.sendForm('service_5nek46p', 'template_glxg61y', this)
+                    .then(function() {
+                        alert('Form submitted successfully!');
+                    }, function(error) {
+                        alert('Failed to send the form: ' + JSON.stringify(error));
+                    });
+            }
+        });
+
+        // Enforce 10 digit limit on phone number
+        phoneInputField.addEventListener('input', function() {
+            const value = phoneInputField.value.replace(/\D/g, ''); // Remove non-digits
+            if (value.length > 10) {
+                phoneInputField.value = value.slice(0, 10); // Limit to 10 digits
+            }
+        });
+    });
+        </script>
         <script>AOS.init();</script>
         <script>
             $(document).ready(function(){
