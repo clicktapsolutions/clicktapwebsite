@@ -740,11 +740,25 @@
                         </p>
                         </div>
                     </div>
-                    <div class="col-md-4"><img src="https://images.unsplash.com/photo-1526572195979-0f8a7ea44489?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="sty-img"></div>
-                </div>
+                    <div class="col-md-4">
+        <div class="new-container-card">
+            <div class="slider-sug-land">
+              <div>
+                <img src="/assets/images/SugarLand.png" alt="" class="land-sug">
+              </div>
+              <div>
+                <img src="/assets/images/SugarLand-2.png" alt="" class="land-sug">
+              </div>
             </div>
         </div>
-    </div>
+                        
+
+
+
+</div>
+</div>
+</div>
+</div>
 </div>
 </section>
 
@@ -1206,6 +1220,26 @@
             });
 </script>
 
+<script>
+$(document).ready(function(){
+    $('.slider-sug-land').slick({
+        autoplay: false,
+        autoplaySpeed: 6000,
+        dots: false,
+        arrows: true,
+    });
+
+    // Dynamically create a <style> element and append it to the head of the document
+    var style = document.createElement('style');
+    style.innerHTML = `
+        .slider-sug-land .slick-prev::before, 
+        .slider-sug-land .slick-next::before {
+            color: black !important; /* Change arrow icon color to black */
+        }
+    `;
+    document.head.appendChild(style);
+});
+</script>
 <!-- 
         //////////////////reviews wala slider ///////////////////// -->
 <script>
