@@ -216,7 +216,7 @@ ul.chekr li { display: inline-block; }
 .num-wrp { position: absolute; top: 0px; left: 0px; }
 img.sty-img { width: 100%; }
 ul.ft-li {padding: 40px 20px 0;display: block;text-align: right;}
-ul.ft-li li { display: block; }
+ul.ft-li li {display: block;padding: 5px 0 0 0;}
 .img-pr img {position: relative;width: 50%;left: 80px;padding: 30px 0px;}
 .carousel-inner img { width: 100%; height: 100%; }
 .tab1 {background: url("/assets/images/bg-sli.png");background-repeat: no-repeat;background-size: cover;color: #ffff;padding: 30px 20px;background-position: center;border-radius: 20px;}
@@ -284,7 +284,7 @@ section.stk-prss {padding: 10px 0px;background: linear-gradient(250deg, rgb(0, 7
 .port-effect {position: relative;padding: 60px 0px;}
 span.prt-eff {position: absolute;font-size: 120px;font-weight: 900;top: 2px;z-index: -1;color: #0000000f;}
 /* ///////////////////privacy//////////////////////// */
-.pr-vc ul {display: block;padding: 70px 0 0 0;}
+.pr-vc ul {display: block;padding: 0px 0 0 0;margin: 0 0 0 -10px;}
 .pr-vc li {display: inline-block;padding: 10px 10px;}
 .pr-vc a {color: #fff;}
 .prvcy{background: url("../images/prv.png") center center / cover no-repeat;height: 50vh;}
@@ -524,8 +524,8 @@ section.companies {background: whitesmoke;padding: 60px 0;}
 .wrpp-compes img {filter: grayscale(1);}
 .wrpp-compes img:hover {filter: grayscale(0);}
 .functions{background: url(/assets/card-pgs/images/funtn.png);color: #fff;background-attachment: fixed;}.text-over {padding: 80px 0;}
-img.gf {width: 20%;margin: 0px 180px -46px 0px;}
-i.fa-solid.fa-envelope {padding: 0 0 0 20px;}
+img.gf {width: 25%;margin: 0px 0px -45px 180px;}
+i.fa-solid.fa-envelope {padding: 0 0 0 20px;font-size: 20px;}
 
 .logo-app.portts img {width: 90%;margin-right: -30px;}
 a.cs {background: black; padding: 8px 10px;text-decoration: none;border-radius: 5px;color: #fff;}
@@ -772,4 +772,12 @@ img.nw-sld-pr {
 h2.clnt-sy{display:block;}
 img.land-sug {
   width: 100%;
+}
+li.hed-off {
+  font-weight: 800;
+  padding: 0px 35px 0px 0px;
+  margin: 0 0 -10px 0;
+}
+li.side-karo {
+  padding: 0px 0 0 0;
 }
