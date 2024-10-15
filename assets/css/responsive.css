@@ -52,7 +52,7 @@
   .bxs-rv p {font-size: 16px;color: #000;}
   .bxs-rv h5 {font-size: 30px;font-weight: 700;color: #000;}
   .bxs-rv {height: 35vh;margin: 20px;}
-  img.ser-gif {width: 100%;padding: 60px 0px;}
+  img.ser-gif {width: 100%;padding: 60px 0px;display: none;}
   .box-pr {height: auto;}
   img.tb-log {width: 85%;padding: 10px 5px;}
   .rev-wrp {padding: 0px 0px 0px 0px;}
@@ -185,14 +185,11 @@ section.sec-1 {
 .chek {
   height: 80vh;
 }
-.serv-bg {
-height: 80vh;
-position: relative;
-}
+.serv-bg {height: 70vh;position: relative;}
 
 h4.apz {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 h6.apz-1 {
@@ -200,7 +197,7 @@ display: none;
 }
 
 p.apz-2 {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .swiper {
@@ -240,7 +237,7 @@ h2.clnt-sy {
   display: block;
 }
 
-
+ser-gif{display: hide !important;}
 
 
 
@@ -266,7 +263,7 @@ h2.clnt-sy {
   .vsn {margin: 50px 20px;}      
   label.sm-lab {font-size: 12px;padding: 5px 10px;}
   /* .card-sld-off,.card-sld-off-2,.card-sld-off-4{padding: 20px 30px;height: 45vh;} */
-
+  ser-gif{display: none !important;}
 }
   
   @media screen and (min-width: 1400px){
